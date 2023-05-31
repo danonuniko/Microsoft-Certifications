@@ -22,3 +22,28 @@
    - Confiabilidad.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Predicción.
    - Escalabilidad.
+
+6. ¿Qué tipo de servicio en la nube es el más adecuado para una migración mediante lift-and-shift de un centro de datos local a una implementación en la nube?
+   - Infraestructura como servicio (IaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Plataforma como servicio (PaaS).
+   - Software como servicio (SaaS).
+
+7. ¿En qué tipo de servicio en la nube se encuentra normalmente una solución de seguimiento de finanzas y gastos?
+   - Infraestructura como servicio (IaaS).
+   - Plataforma como servicio (PaaS).
+   - Software como servicio (SaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+8. ¿En cuántos grupos de recursos puede estar un recurso al mismo tiempo?  
+   - Uno  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Dos
+   - Tres
+
+9. ¿Qué ocurre con los recursos de un grupo de recursos cuando se aplica una acción o configuración en el nivel de grupo de recursos?
+   - Los recursos actuales heredan la configuración, pero los recursos futuros, no.
+   - Los recursos futuros heredan la configuración, pero los actuales, no.
+   - La configuración se aplica a los recursos actuales y futuros.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+10. ¿Qué característica de Azure replica los recursos entre regiones que están al menos a 300 millas de distancia entre sí?
+   - Pares de región.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Availability Zones.
+   - Regiones soberanas.
