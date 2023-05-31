@@ -39,11 +39,11 @@
    - Tres
 
 9. ¿Qué ocurre con los recursos de un grupo de recursos cuando se aplica una acción o configuración en el nivel de grupo de recursos?
-- Los recursos actuales heredan la configuración, pero los recursos futuros, no.
+   - Los recursos actuales heredan la configuración, pero los recursos futuros, no.
    - Los recursos futuros heredan la configuración, pero los actuales, no.
    - La configuración se aplica a los recursos actuales y futuros.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
 10. ¿Qué característica de Azure replica los recursos entre regiones que están al menos a 300 millas de distancia entre sí?
-   - Pares de región.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Pares de región.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
       - Availability Zones.
-   - Regiones soberanas.
+      - Regiones soberanas.
