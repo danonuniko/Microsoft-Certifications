@@ -1,18 +1,17 @@
 <h1 align="center"><ins>RUTA 1: DESCRIPCIÓN DE LOS CONCEPTOS DE LA NUBE</ins></h1>
-<h2>MÓDULO 2 - DESCRIPCIÓN DE LAS VENTAJAS DE USAR SERVICIOS EN LA NUBE</h2>
+<h2 align="center">MÓDULO 2 - DESCRIPCIÓN DE LAS VENTAJAS DE USAR SERVICIOS EN LA NUBE</h2>
 
 ### Descripción de las ventajas de la alta disponibilidad y la escalabilidad en la nube:
 
-Al compilar o implementar una aplicación en la nube, dos de las consideraciones más importantes son el tiempo de actividad (o la disponibilidad) y la capacidad de controlar la demanda (o escala).
+Al compilar o implementar una aplicación en la nube, dos de las consideraciones más importantes son el tiempo de actividad (o la <b>disponibilidad</b>) y la capacidad de controlar la demanda (o <b>escala</b>).
 
-Alta disponibilidad: Se centra en garantizar la máxima disponibilidad, independientemente de las interrupciones o eventos que puedan producirse.
-Al diseñar la solución, deberá tener en cuenta las garantías de disponibilidad del servicio. Azure es un entorno de nube de alta disponibilidad con garantías de tiempo de actividad en función del servicio. Estas garantías forman parte de los contratos de nivel de servicio.
+<b>ALTA DISPONIBILIDAD:</b> Se centra en garantizar la máxima disponibilidad, independientemente de las interrupciones o eventos que puedan producirse. Al diseñar la solución, deberá tener en cuenta las garantías de disponibilidad del servicio. Azure es un entorno de nube de alta disponibilidad con garantías de tiempo de actividad en función del servicio. Estas garantías forman parte de los contratos de nivel de servicio.
 
-SLA o Acuerdo de Nivel de Servicio. Es el acuerdo formal entre un proveedor de servicios y un cliente que garantiza al cliente un nivel de servicio establecido. En Azure, los acuerdos de nivel de servicio se representan como un porcentaje relacionado con la disponibilidad del servicio o la aplicación (tiempo de actividad o "uptime"). Normalmente un SLA incluye detalles como el tiempo de inactividad donde el servicio no está disponible o el crédito al que puede tener derecho si no se cumple el acuerdo de nivel de servicio. Los más comunes son el 99%, 99.9% y 99.95%, incluyendo el 99.99% en alguno de los servicios.
+<b>SLA o Acuerdo de Nivel de Servicio.</b> Es el acuerdo formal entre un proveedor de servicios y un cliente que garantiza al cliente un nivel de servicio establecido. En Azure, los acuerdos de nivel de servicio se representan como un porcentaje relacionado con la disponibilidad del servicio o la aplicación (tiempo de actividad o "uptime"). Normalmente un SLA incluye detalles como el tiempo de inactividad donde el servicio no está disponible o el crédito al que puede tener derecho si no se cumple el acuerdo de nivel de servicio. Los más comunes son el 99%, 99.9% y 99.95%, incluyendo el 99.99% en alguno de los servicios.
 
-Escalabilidad: Hace referencia a la capacidad de ajustar los recursos para satisfacer la demanda. Una ventaja es que no está pagando de más por los servicios. Dado que la nube es un modelo basado en el consumo, solo paga por lo que usa. Si la demanda baja, puede reducir los recursos y, por tanto, reducir los costos. Suele tener dos variedades: vertical y horizontal. El escalado vertical se centra en aumentar o disminuir las capacidades de los recursos. El escalado horizontal agrega o resta el número de recursos.
+<b>ESCALABILIDAD:</b> Hace referencia a la capacidad de ajustar los recursos para satisfacer la demanda. Una ventaja es que no está pagando de más por los servicios. Dado que la nube es un modelo basado en el consumo, solo paga por lo que usa. Si la demanda baja, puede reducir los recursos y, por tanto, reducir los costos. Suele tener dos variedades: <b>vertical</b> y <b>horizontal</b>. El escalado vertical se centra en aumentar o disminuir las capacidades de los recursos. El escalado horizontal agrega o resta el número de recursos.
 
-Escalado vertical: Agregar o disminuir más CPU o RAM a la máquina virtual.
+Escalado vertical: Agregar o disminuir más CPU o RAM a la máquina virtual.  
 Escalado horizontal: Agregar o disminuir el número de máquinas virtuales utilizadas.
 
 ### Descripción de las ventajas de la confiabilidad y la previsibilidad en la nube:
