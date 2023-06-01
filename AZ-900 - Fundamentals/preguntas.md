@@ -198,6 +198,57 @@ PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN.
       - La aplicación Pedidos Especiales ya está en producción. La empresa no debería considerar la adopción del servicio AR mientras el servicio no alcance la fase de disponibilidad general (GA).
   
 27. Cada cuenta de usuario en Azure Active Directory (Azure AD) puede ser asignada solo a una licencia.
-      Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
-      Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Verdadero.
+
+28. Puede asociar un grupo de seguridad de red (NSG) a una interfaz de red.
+      - Falso.
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
   
+29. ¿Cuál de los siguientes es un ejemplo de servicio de procesos de Azure?
+      - Máquina virtual de Azure.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Azure Table Storage.
+      - Balanceador de carga de Azure.
+      - Azure Cache for Redis.
+      NO COMPLICARSE EN LA RESPUESTA.
+
+30. ¿Qué servicios suelen tener menor costo?
+      - IaaS.
+      - PaaS.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br>
+      <b>RAZONANDO EN UNA PaaS AZURE TIENE MAYOR RESPONSABILIDAD, PERO NO HAY ENTIDAD FÍSICA QUE DEBA VENDERTE. SIGUIENDO ESE RAZONAMIENTO EL SaaS TENDRÍA QUE SER EL SERVICIO MÁS BARATO.</br>
+
+31. La seguridad en la nube es una responsabilidad compartida entre usted y su proveedor de nube. ¿Qué categoría de servicios en la nube requiere mayor esfuerzo de seguridad por su parte?
+      - IaaS.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - PaaS.
+      - SaaS.
+
+32. Puede asociar un grupo de resuridad de red (NSG) a una subred de red virtual.
+      - Falso.P
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+33. ¿Qué servicio proporciona tráfico de red en varias suscripciones de azure y redes virtuales?
+      - Azure DDoS protection.
+      - Azure Firewall.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - An application security group.
+      - A network security group (NSG). <br>
+      RECORDAR RESPUESTA.
+
+34. Para conseguir un modelo de nube híbrida, una empresa debe migrar siempre de un modelo de nube privada.
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+35. Imagina que trabajas en una aplicación para compartir fotos que se ejecuta en millones de dispositivos moviles. La demanda es impredecible porque observa un aumento en el uso cada vez que ocure un evento significativo a nivel local o nacional. ¿Qué recurso de proceso en Azure es el mejor que se adapta a esta carga de trabajo?
+      - Contenedores.
+      - Serverless Computing.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Máquinas Virtuales.<br>
+      RECUERDA ESTA RESPUESTA. SERVERLESS COMPUTING TAMBIÉN PUEDE ESCALAR.
+
+36. Su empresa desea desplegar varios servidores web y servidores de base de datos en Azure. ¿Qué solución recomendarías para limitar los tipos de conexiones desde los servidores web hacia las bases de datos?
+      - Network Security Groups (NSG).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Un filtro de rutas.
+      - Azure Service Bus.
+      - Network gateway local.
+
+37. Un grupo de recursos contiene múltiples subscripciones de Azure.
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
