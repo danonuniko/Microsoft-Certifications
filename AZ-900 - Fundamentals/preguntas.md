@@ -366,7 +366,7 @@ PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN (DAYPO.COM)
       - Evalúa que recursos locales se pueden migrar a Azure.
       TIRÁNDOME TRIPLE ACIERTO GRACIAS A COMPARAR LA LÓGICA DEL RESTO DE OPCIONES POSIBLES.
 
-58. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG1. De la documentación de Azure tiene el siguiente comando que crea una máquina virtual llamada VM1. az vm create --resource-group RG1 -nombre VM1 --image UbuntuLTS --generate-ssh-keys. Debe crear VM1 en Subscription1 mediante el comando. Solución: Instale la CLI de Azure en su equipo que ejecuta windows 10. Desde powershell, inicie sesión en Azure y luego ejecute el comando.
+58. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG1. De la documentación de Azure tiene el siguiente comando que crea una máquina virtual llamada VM1. az vm create --resource-group RG1 -nombre VM1 --image UbuntuLTS --generate-ssh-keys. Debe crear VM1 en Subscription1 mediante el comando. Solución: Instale la CLI de Azure en su equipo que ejecuta Windows 10. Desde powershell, inicie sesión en Azure y luego ejecute el comando.
       - Sí.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
       - No.
 
@@ -375,3 +375,71 @@ PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN (DAYPO.COM)
       - Modify a DDoS protecction plan.
       - Modify an Azure Firewall.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
       - Modify a network security group (NSG).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+60. Para usar las credenciales de Azure Active Directory (Azure AD) para iniciar sesión que ejecuta W10, el equipo debe esta unido a Azure AD.
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Falso.
+  
+61. ¿Qué servicio de Azure proporciona información de estado actualizada sobre el estado de los servicios de Azure?
+      - Service Trust Portal.
+      - Azure Monitor.
+      - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Compliance manager.
+      RECORDAR RESPUESTA.
+
+62. Una reserva de Azure se usa para reservar la capacidad del servidor en un centro de datos específico.
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+  
+63. Electricidad para tu datacenter es un ejemplo de CapEX.
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Falso.
+      RECORDAR RESPUESTA.
+
+64. Cada cuenta de usuario en Azure Active Directory (Azure AD) puede ser asignada solo a una licencia.
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      RECORDAR RESPUESTA.
+
+65. Un equipo de desarrolladores de su empresa planea implementar y luego eliminar 50 máquinas virtuales cada semana. Todas las máquinas virtuales están configuradas mediante Azure Plantillas de Resources Manager. Debe recomendar qué servicios de Azure minimizará el esfuerzo administrativo necesario para implementar y quitar las máquinas virtuales. ¿Qué debería recomendarme?
+      - Azure Reserved Virtual Machine (VM) instances.
+      - Azure Virtual Machine scale set.
+      - Azure DevTest Lab.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Microsoft Managed Desktop.
+      RECORDAR RESPUESTA.
+
+66. El costo por suscriptor de un proveedor de servicios en la nube se reduce con el aumento en el número de suscriptores. Es un servicio de nube pública. ¿Puedes identificar cómo se llamaría esto?
+      - Facturación basada en el consumo.
+      - Escalabilidad.
+      - Gastos operacionales.
+      - Economía de escala.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+  
+67. Su empresa tiene varios ordenadores locales con W10. Quieren usar un disco en red para estas máquinas. ¿Qué servicio de Azure recomendaría?
+      - Azure Blob Storage.
+      - Azure File Storage.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Azure Sql Database.
+      - Azure Synapse Analytics.
+      RECORDAR RESPUESTA. INVESTIGAR POR QUÉ LA OPCIÓN A NO ES VÁLIDA.
+
+68. ¿Qué servicio proporciona tráfico de red en varias suscripciones de Azure y redes virtuales?
+      - An application Security Group.
+      - A Network Security Group.
+      - Azure Firewall.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Azure DDoS protection.
+      RECORDAR RESPUESTA.
+
+69. Un administrador de Azure planea ejecutar un script de PowerShell que crea recursos de Azure. Debe recomendar qué configuración de computadora utilizar para ejecutar el script. ¿Qué tres computadoras pueden ejecutar el script?
+      - Una computadora que ejecuta Windows10 y tiene instalado el módulo de Azure PowerShell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Una computadora que ejecuta macOS y tiene PowerShell Core 6.0 instalado.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Una computadora que ejecuta Linux y tiene instaladas las herramientas de la CLI de Azure.
+      - Una computadora que ejecuta Chrome OS y usa Azure Cloud Shell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Un equipo que ejecuta Linux y tiene instalado Azure PowerShell.
+
+70. Su empresa quiere usar Azure ExpressRoute para conectar su red local a la nube de Microsoft. ¿Cuál de las siguientes opciones no es un modelo de ExpressRoute que su empresa puede usar?
+      - Ubicación de CloudExchange.
+      - Red privada virtual de sitio a sitio.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Conexión Universal.
+      - Conexión Ethernet de punto a punto.
+      RECORDAR RESPUESTA.
+      
+RESULTADOS PRIMERA VUELTA: 41/71 (57%) => SUSPENSO.
