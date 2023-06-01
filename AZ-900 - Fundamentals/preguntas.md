@@ -106,7 +106,7 @@
    RECORDAR QUE CON AZURE COST MANAGER NO PODEMOS REALIZAR ESTIMACIONES DE CAMBIO.
 
 <b>10. Las opciones de procesamiento le brindan diferentes niveles de control sobre la configuración del entorno en el que se ejecuta su aplicación. ¿Cuál de las siguientes opciones enumera las opciones de procesamiento en orden de mayor control a menor control?</b>
-      - Contenedores, Serverless computing, Máquinas virtuales.
+   - Contenedores, Serverless computing, Máquinas virtuales.
       - Máquinas virtuales, contenedores, Serverless computing.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
       - Serverless computing, contenedores, Máquinas virtuales.
 
