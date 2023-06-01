@@ -88,7 +88,7 @@
 <b>6. Un Grupo de recursos puede tener el rol de propietario asignado a varios usuarios.</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>GRUPO DE RECURSOS = UN ÚNICO USUARIO CON ROL DE PROPIETARIO.</b>
+   <b>GRUPO DE RECURSOS = UN ÚNICO USUARIO CON ROL DE PROPIETARIO.</b><br><br>
 
 <b>7. Para construir una nube híbrida, debe implementar recursos en la nube pública.</b>
    - Falso.
@@ -103,7 +103,7 @@
    - Ver un desglose histórico de los servicios en los que se está gastando dinero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Las dos opciones son correctas.
    - Ver estimaciones de cuánto costarían los servicios si se realizan cambios.<br><br>
-   <b>RECORDAR QUE CON AZURE COST MANAGER NO PODEMOS REALIZAR ESTIMACIONES DE CAMBIO.</b>
+   <b>RECORDAR QUE CON AZURE COST MANAGER NO PODEMOS REALIZAR ESTIMACIONES DE CAMBIO.</b><br><br>
 
 <b>10. Las opciones de procesamiento le brindan diferentes niveles de control sobre la configuración del entorno en el que se ejecuta su aplicación. ¿Cuál de las siguientes opciones enumera las opciones de procesamiento en orden de mayor control a menor control?</b>
    - Contenedores, Serverless computing, Máquinas virtuales.
@@ -114,7 +114,7 @@
    - Declaración de privacidad de Microsoft.
    - Centro de confianza.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Términos de Online Services.<br><br>
-   <b>RECORDAR ESTA RESPUESTA.</b>
+   <b>RECORDAR ESTA RESPUESTA.</b><br><br>
 
 <b>12. El tráfico de datos entre los servicios de Azure dentro de la misma región de Azure es siempre gratuito.</b>
    - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -127,7 +127,7 @@
 <b>14. ¿Puede asociar un grupo de seguridad de red (NSG) a una red virtual?</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>15. Se ha implementado una nueva política en su organización que limita el acceso a grupo de recursos y ámbitos de recursos de forma detallada y granular. Se proporciona acceso a varios grupos y usuarios. ¿Qué eligiría utilizar si desea implementar una nueva política?</b>
    - Control de acceso basado en roles (RBAC).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -143,7 +143,7 @@
    - Contenedores.
    - Máquinas virtuales.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Serverless Computing.<br><br>
-   <b>RECORDAR LA RESPUESTA: QUE LA PALABRA RÁPIDA NO TE CONFUNDA A LA HORA DE SELECCIONAR LA OPCIÓN CORRECTA.</b>
+   <b>RECORDAR LA RESPUESTA: QUE LA PALABRA RÁPIDA NO TE CONFUNDA A LA HORA DE SELECCIONAR LA OPCIÓN CORRECTA.</b><br><br>
 
 <b>18. Un recurso de Azure hereda locks de su grupo de recursos.</b>
    - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -154,31 +154,31 @@
    - Cambiar el tamaño de las máquinas virtuales que están infrautilizadas.
    - Deshabilitar las máquinas virtuales cuando no están en uso.
    - Usar un balanceador de carga para el enrutamiento de tráfico entrante.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>OPCIONES B y C CLARAMENTE AHORRAN COSTES. ENTRE OPCIÓN A y D OPCIÓN CORRECTA ES D. INVESTIGAR A QUÉ SE REFIERE UNA INSTANCIA RESERVADA.</b>
+   <b>OPCIONES B y C CLARAMENTE AHORRAN COSTES. ENTRE OPCIÓN A y D OPCIÓN CORRECTA ES D. INVESTIGAR A QUÉ SE REFIERE UNA INSTANCIA RESERVADA.</b><br><br>
 
 <b>20. Para implementar una solución Azure Multi factor authentication (MFA), debes sincronizar las identidades locales con la nube.</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>21. Como administrador, debe recuperar la dirección IP de una VM determinada mediante Bash ¿Cuál de las siguientes herramientas debe usar?</b>
    - La CLI de Azure.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - El portal de Azure.
    - Plantillas de ARM.
    - Azure PowerShell.<br><br>
-   <b>RECORDAR LA RESPUESTA. NO CONFUNDIR CON LA OPCIÓN D. REVISAR CUÁL ERA LA DIFERENCIA ENTRE AMBAS.</b>
+   <b>RECORDAR LA RESPUESTA. NO CONFUNDIR CON LA OPCIÓN D. REVISAR CUÁL ERA LA DIFERENCIA ENTRE AMBAS.</b><br><br>
 
 <b>22. Quiere desplegar una aplicación web en Azure. Esta web será accedida por usuarios repartidos por todo el mundo y servirá grandes ficheros de video. ¿Qué servicio de Azure se recomienda para proporcionar la mejor experiencia de usuario?</b>
    - Application gateway.
    - Content delivery network (CDN).   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Express Route.
    - Azure Traffic Manager.<br><br>
-   <b>RECORDAR RESPUESTA. TIENE SENTIDO VIENDO LAS POSIBLES OPCIONES SI TRADUCIMOS.</b>
+   <b>RECORDAR RESPUESTA. TIENE SENTIDO VIENDO LAS POSIBLES OPCIONES SI TRADUCIMOS.</b><br><br>
 
 <b>23. Se pueden aplicar Tags a cualquier tipo de recursos en Azure.</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RECORDAR RESPUESTA. NO CAER EN LA TRAMPA DE LA GENERALIZACIÓN.</b>
+   <b>RECORDAR RESPUESTA. NO CAER EN LA TRAMPA DE LA GENERALIZACIÓN.</b><br><br>
 
 <b>24. Conteste Sí o No a las siguientes afirmaciones:</b>
    - Un grupo de host de Windows Virtual Desktop que incluye 20 host de sesión admite un máximo de 20 conexiones de usuarios simuladas.   &emsp; &emsp; &emsp; &emsp; <b>NO</b>
@@ -190,7 +190,7 @@
    - Segmento pequeño, mediano y grande.
    - Enterprise, Web Direct y proveedores de soluciones Cloud.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Public limited, private limited y Enterprise.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>26. ¿Qué enfoque debería adoptar la empresa para agregar el servicio en versión preliminar de realidad aumentada (AR) a su arquitectura?</b>
    - La aplicación de Pedidos Especiales es utilizada principalmente por los empleados de las tiendas minoristas. La empresa puede integrar el servicio AR ya mismo porque los posibles errores o tiempos de inactividad no son un factor importante.
@@ -210,12 +210,12 @@
    - Azure Table Storage.
    - Balanceador de carga de Azure.
    - Azure Cache for Redis.<br><br>
-   <b>NO COMPLICARSE EN LA RESPUESTA.</b>
+   <b>NO COMPLICARSE EN LA RESPUESTA.</b><br><br>
 
 <b>30. ¿Qué servicios suelen tener menor costo?</b>
    - IaaS.
    - PaaS.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RAZONANDO EN UNA PaaS AZURE TIENE MAYOR RESPONSABILIDAD, PERO NO HAY ENTIDAD FÍSICA QUE DEBA VENDERTE. SIGUIENDO ESE RAZONAMIENTO EL SaaS TENDRÍA QUE SER EL SERVICIO MÁS BARATO.</b>
+   <b>RAZONANDO EN UNA PaaS AZURE TIENE MAYOR RESPONSABILIDAD, PERO NO HAY ENTIDAD FÍSICA QUE DEBA VENDERTE. SIGUIENDO ESE RAZONAMIENTO EL SaaS TENDRÍA QUE SER EL SERVICIO MÁS BARATO.</b><br><br>
 
 <b>31. La seguridad en la nube es una responsabilidad compartida entre usted y su proveedor de nube. ¿Qué categoría de servicios en la nube requiere mayor esfuerzo de seguridad por su parte?</b>
    - IaaS.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -231,7 +231,7 @@
    - Azure Firewall.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - An application security group.
    - A network security group (NSG).<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>34. Para conseguir un modelo de nube híbrida, una empresa debe migrar siempre de un modelo de nube privada.</b>
    - Verdadero.
@@ -241,7 +241,7 @@
    - Contenedores.
    - Serverless Computing.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Máquinas Virtuales.<br><br>
-   <b>RECUERDA ESTA RESPUESTA. SERVERLESS COMPUTING TAMBIÉN PUEDE ESCALAR.</b>
+   <b>RECUERDA ESTA RESPUESTA. SERVERLESS COMPUTING TAMBIÉN PUEDE ESCALAR.</b><br><br>
 
 <b>36. Su empresa desea desplegar varios servidores web y servidores de base de datos en Azure. ¿Qué solución recomendarías para limitar los tipos de conexiones desde los servidores web hacia las bases de datos?</b>
    - Network Security Groups (NSG).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -257,7 +257,7 @@
    - Un Express route con conectividad a su red local.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Una cuenta de almacenamiento utilizada para almacenar temporalmente imágenes procesadas en un entorno de desarrollo.
    - Una máquina virtual que no es de producción utilizada para probar compilaciones de aplicaciones ocasionales.<br><br>
-   <b>ANALIZANDO LAS POSIBLES RESPUESTAS LAS OPCIONES B y C NO TIENEN DEMASIADO SENTIDO.</b>
+   <b>ANALIZANDO LAS POSIBLES RESPUESTAS LAS OPCIONES B y C NO TIENEN DEMASIADO SENTIDO.</b><br><br>
 
 <b>39. Un atacante puede dejar fuera de servicio un sitio web enviando un gran volumen de tráfico de red a los servidores. ¿Qué servicio de Azure puede ayudar a proteger su instancia de App Service ante un ataque de este tipo?</b>
    - Azure DDos Protection.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -271,7 +271,7 @@
 <b>41. Un usuario que tiene asignado el rol de propietario puede transferir la propiedad de una suscripción de Azure.</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>42. ¿Qué servicio ofrece un análisis oficial de la causa principal (RCA) de la interrupción en los incidentes de Azure?</b>
    - Azure Advisor.
@@ -283,7 +283,7 @@
    - Cree un presupuesto en Azure Cost Manager.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Cree una alerta en Azure Monitor.
    - Cree una alerta en Azure Advisor.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>44. Azure Active Directory (Azure AD) requiere la implementación de controladores de dominio en máquinas virtuales de Azure.</b>
    - Verdadero.
@@ -292,7 +292,7 @@
 <b>45. Solo puede haber un administrador de cuenta asignado a la suscripción de Azure.</b>
    - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Falso.<br><br>
-   <b>RECORDAR ESTA RESPUESTA. UN ÚNICO PROPIETARIO. UN ÚNICO ADMINISTRADOR.</b>
+   <b>RECORDAR ESTA RESPUESTA. UN ÚNICO PROPIETARIO. UN ÚNICO ADMINISTRADOR.</b><br><br>
 
 <b>46. Tiene una aplicación Web de Azure. Debe administrar la configuración de la aplicación Web desde un Iphone. ¿Cuáles son las dos herramientas de administración de Azure que puede usar?</b>
    - Azure Cloud Shell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -300,7 +300,7 @@
    - Azure Storage Explorer.
    - Windows Powershell.
    - Azure CLI.<br><br>
-   <b>RECORDAR RESPUESTA. LA OPCIÓN A NO LA HABÍAMOS TENIDO EN CUENTA.</b>
+   <b>RECORDAR RESPUESTA. LA OPCIÓN A NO LA HABÍAMOS TENIDO EN CUENTA.</b><br><br>
 
 <b>47. Como desarrollador tiene que configurar su primera VM para hospedar un proceso que se ejecuta por la noche. ¿Cuál de las siguientes herramientas es la mejor opción?</b>
    - Azure PowerShell.
@@ -311,14 +311,14 @@
 <b>48. Se puede asociar una suscripción de Azure a varios inquilinos de Azure Active Directory (Azure AD).</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>49. Su empresa tiene un contrato de Software Assurance que incluye licencias de Microsoft SQL Server. Tiene previsto implementar SQL server en máquinas virtuales de Azure. ¿Qué debe hacer para minimizar los costos de licencia para la implementación?</b>
    - Utilizar Azure Hybrid Benefit.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Desasignar las máquinas virtuales durante las horas de inactividad.
    - Utilizar las reservas de Azure.
    - Configurar los presupuestos de Azure Cost Manager.<br><br>
-   <b>RECORDAR RESPUESTA. LA OPCIÓN B TAMBIÉN PARECÍA QUE PODÍA SER SOLUCIÓN.</b>
+   <b>RECORDAR RESPUESTA. LA OPCIÓN B TAMBIÉN PARECÍA QUE PODÍA SER SOLUCIÓN.</b><br><br>
 
 <b>50. ¿Qué dos infraestructuras reflejan dos infraestructuras válidas para la nube híbrida?</b>
    - Nube privada y nube pública.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -335,24 +335,24 @@
    - Nube privada.
    - Nube pública.
    - Nube multi-vendor.<br><br>
-   <b>RECORDAR RESPUESTA E INTENTAR RAZONAR EL POR QUÉ.</b>
+   <b>RECORDAR RESPUESTA E INTENTAR RAZONAR EL POR QUÉ.</b><br><br>
 
 <b>53. Una solución de plataforma como servicio (PaaS) que aloja aplicaciones Web en Azure puede recibir memoria adicional cambiando el nivel de precios.</b>
    - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Falso.<br><br>
-   <b>"Una solución PaaS no proporciona acceso al sistema operativo. Mientras usa una aplicación Azure PaaS que hospeda sus aplicaciones web, puede cambiar el nivel de precios para agregar memoria adicional".</b>
+   <b>"Una solución PaaS no proporciona acceso al sistema operativo. Mientras usa una aplicación Azure PaaS que hospeda sus aplicaciones web, puede cambiar el nivel de precios para agregar memoria adicional".</b><br><br>
 
 <b>54. ¿Cuál de los siguientes se utilizan para determinar los costos de Azure para cada periodo de facturación?</b>
    - Métricas de uso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - La calculadora de precios de Azure.
    - El número de máquinas virtuales creadas.
    - La web de Azure.<br><br>
-   <b>RECORDAR RESPUESTA. LA OPCIÓN D NO ES CORRECTA.</b>
+   <b>RECORDAR RESPUESTA. LA OPCIÓN D NO ES CORRECTA.</b><br><br>
 
 <b>55. ¿Puedes asignar un Azure blueprint a un grupo de recursos (resource group)?</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
-   <b>RECORDAR RESPUESTA. INVESTIGAR QUE ES UN AZURE BLUEPRINT.</b>
+   <b>RECORDAR RESPUESTA. INVESTIGAR QUE ES UN AZURE BLUEPRINT.</b><br><br>
 
 <b>56. ¿Qué servicio ofrece un análisis oficial de la causa principal (RCA) de la interrupción en los incidentes de Azure?</b>
    - Azure Advisor.
@@ -364,7 +364,7 @@
    - Confirma que la seguridad de la suscripción de Azure sigue las mejores prácticas.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Estima los costos de una solución de Azure.
    - Evalúa que recursos locales se pueden migrar a Azure.<br><br>
-   <b>TIRÁNDOME TRIPLE ACIERTO GRACIAS A COMPARAR LA LÓGICA DEL RESTO DE OPCIONES POSIBLES.</b>
+   <b>TIRÁNDOME TRIPLE ACIERTO GRACIAS A COMPARAR LA LÓGICA DEL RESTO DE OPCIONES POSIBLES.</b><br><br>
 
 <b>58. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG1. De la documentación de Azure tiene el siguiente comando que crea una máquina virtual llamada VM1. az vm create --resource-group RG1 -nombre VM1 --image UbuntuLTS --generate-ssh-keys. Debe crear VM1 en Subscription1 mediante el comando. Solución: Instale la CLI de Azure en su equipo que ejecuta Windows 10. Desde powershell, inicie sesión en Azure y luego ejecute el comando.</b>
    - Sí.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -385,7 +385,7 @@
    - Azure Monitor.
    - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Compliance manager.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>62. Una reserva de Azure se usa para reservar la capacidad del servidor en un centro de datos específico.</b>
    - Verdadero.
@@ -394,19 +394,19 @@
 <b>63. Electricidad para tu datacenter es un ejemplo de CapEX.</b>
    - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Falso.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>64. Cada cuenta de usuario en Azure Active Directory (Azure AD) puede ser asignada solo a una licencia.</b>
    - Verdadero.
    - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
    <b>RECORDAR RESPUESTA.</b>
-
+<br><br>
 <b>65. Un equipo de desarrolladores de su empresa planea implementar y luego eliminar 50 máquinas virtuales cada semana. Todas las máquinas virtuales están configuradas mediante Azure Plantillas de Resources Manager. Debe recomendar qué servicios de Azure minimizará el esfuerzo administrativo necesario para implementar y quitar las máquinas virtuales. ¿Qué debería recomendarme?</b>
    - Azure Reserved Virtual Machine (VM) instances.
    - Azure Virtual Machine scale set.
    - Azure DevTest Lab.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Microsoft Managed Desktop.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>66. El costo por suscriptor de un proveedor de servicios en la nube se reduce con el aumento en el número de suscriptores. Es un servicio de nube pública. ¿Puedes identificar cómo se llamaría esto?</b>
    - Facturación basada en el consumo.
@@ -419,14 +419,14 @@
    - Azure File Storage.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Azure Sql Database.
    - Azure Synapse Analytics.<br><br>
-   <b>RECORDAR RESPUESTA. INVESTIGAR POR QUÉ LA OPCIÓN A NO ES VÁLIDA.</b>
+   <b>RECORDAR RESPUESTA. INVESTIGAR POR QUÉ LA OPCIÓN A NO ES VÁLIDA.</b><br><br>
 
 <b>68. ¿Qué servicio proporciona tráfico de red en varias suscripciones de Azure y redes virtuales?</b>
    - An application Security Group.
    - A Network Security Group.
    - Azure Firewall.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Azure DDoS protection.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
 
 <b>69. Un administrador de Azure planea ejecutar un script de PowerShell que crea recursos de Azure. Debe recomendar qué configuración de computadora utilizar para ejecutar el script. ¿Qué tres computadoras pueden ejecutar el script?</b>
    - Una computadora que ejecuta Windows10 y tiene instalado el módulo de Azure PowerShell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -440,6 +440,6 @@
    - Red privada virtual de sitio a sitio.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Conexión Universal.
    - Conexión Ethernet de punto a punto.<br><br>
-   <b>RECORDAR RESPUESTA.</b>
+   <b>RECORDAR RESPUESTA.</b><br><br>
       
 <b>RESULTADOS PRIMERA VUELTA: 41/71 (57%) => SUSPENSO.</b>
