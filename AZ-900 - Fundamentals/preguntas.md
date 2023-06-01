@@ -47,3 +47,13 @@
       - Pares de región.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
       - Availability Zones.
       - Regiones soberanas.
+
+11. ¿Qué característica de máquina virtual de Azure escalona las actualizaciones en todas las máquinas virtuales en función de sus dominios de actualización y error?
+      - Conjuntos de disponibilidad.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Conjuntos de escalado.
+      - Conjuntos de actualizaciones.
+
+12. ¿Qué servicio de Azure permite a los usuarios utilizar una versión hospedada en la nube de Windows desde cualquier ubicación y conectarse desde los exploradores más modernos?
+      - Azure Virtual Desktop.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Azure Virtual Machines.
+      - Azure Container Instances.
