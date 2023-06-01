@@ -60,7 +60,7 @@
 
 
 
-PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN.
+PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN (DAYPO.COM)
 
 1. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG1. De la documentación de Azure, tiene el siguiente comando que crea una maquina virtual llamada VM1. az vm create --resource-group RG1 -nombre VM1 --image UbuntuLTS --generate-ssh-keys. Debe crear VM1 en Subscription1 mediante el comando. Solución: Desde Azure Portal, inicie Azure Cloud Shell y seleccione Bash. Ejecute el comando en Cloud Shell. ¿Esto cumple la meta?
    - Sí.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -215,7 +215,7 @@ PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN.
 30. ¿Qué servicios suelen tener menor costo?
       - IaaS.
       - PaaS.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br>
-      <b>RAZONANDO EN UNA PaaS AZURE TIENE MAYOR RESPONSABILIDAD, PERO NO HAY ENTIDAD FÍSICA QUE DEBA VENDERTE. SIGUIENDO ESE RAZONAMIENTO EL SaaS TENDRÍA QUE SER EL SERVICIO MÁS BARATO.</br>
+      <b>RAZONANDO EN UNA PaaS AZURE TIENE MAYOR RESPONSABILIDAD, PERO NO HAY ENTIDAD FÍSICA QUE DEBA VENDERTE. SIGUIENDO ESE RAZONAMIENTO EL SaaS TENDRÍA QUE SER EL SERVICIO MÁS BARATO.</b></br>
 
 31. La seguridad en la nube es una responsabilidad compartida entre usted y su proveedor de nube. ¿Qué categoría de servicios en la nube requiere mayor esfuerzo de seguridad por su parte?
       - IaaS.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -223,7 +223,7 @@ PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN.
       - SaaS.
 
 32. Puede asociar un grupo de resuridad de red (NSG) a una subred de red virtual.
-      - Falso.P
+      - Falso.
       - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
 33. ¿Qué servicio proporciona tráfico de red en varias suscripciones de azure y redes virtuales?
@@ -252,3 +252,126 @@ PREGUNTAS ENCONTRADAS FUERA DE MICROSOFT LEARN.
 37. Un grupo de recursos contiene múltiples subscripciones de Azure.
       - Verdadero.
       - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+38. ¿Cuál de las siguientes opciones sería buena para poner un bloqueo de recursos?
+      - Un Express route con conectividad a su red local.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Una cuenta de almacenamiento utilizada para almacenar temporalmente imágenes procesadas en un entorno de desarrollo.
+      - Una máquina virtual que no es de producción utilizada para probar compilaciones de aplicaciones ocasionales.<br>
+      ANALIZANDO LAS POSIBLES RESPUESTAS LAS OPCIONES B y C NO TIENEN DEMASIADO SENTIDO.
+
+39. Un atacante puede dejar fuera de servicio un sitio web enviando un gran volumen de tráfico de red a los servidores. ¿Qué servicio de Azure puede ayudar a proteger su instancia de App Service ante un ataque de este tipo?
+      - Azure DDos Protection.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Grupos de seguridad de red (Network Security Group).
+      - Azure Firewall.
+
+40. Puedes crear diferentes directivas (group policies) en Azure AD.
+      - Verdadero.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Falso.
+
+41. Un usuario que tiene asignado el rol de propietario puede transferir la propiedad de una suscripción de Azure.
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br>
+      RECORDAR RESPUESTA.
+
+42. ¿Qué servicio ofrece un análisis oficial de la causa principal (RCA) de la interrupción en los incidentes de Azure?
+      - Azure Advisor.
+      - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Azure Monitor.
+
+43. Una empresa implementa varios recursos de Azure en su suscripción. Quieren estar informados si el costo de cualquier recurso supera un cierto umbral. ¿Cuál de las siguientes opciones puede ayudarlo a lograrlo?
+      - Cree una etiqueta de costo para el grupo de recursos.
+      - Cree un presupuesto en Azure Cost Manager.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Cree una alerta en Azure Monitor.
+      - Cree una alerta en Azure Advisor.<br>
+      RECORDAR RESPUESTA.
+
+44. Azure Active Directory (Azure AD) requiere la implementación de controladores de dominio en máquinas virtuales de Azure.
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+45. Solo puede haber un administrador de cuenta asignado a la suscripción de Azure.
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Falso.<br>
+      RECORDAR ESTA RESPUESTA. UN ÚNICO PROPIETARIO. UN ÚNICO ADMINISTRADOR.
+
+46. Tiene una aplicación Web de Azure. Debe administrar la configuración de la aplicación Web desde un Iphone. ¿Cuáles son las dos herramientas de administración de Azure que puede usar?
+      - Azure Cloud Shell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - The Azure Portal.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Azure Storage Explorer.
+      - Windows Powershell.
+      - Azure CLI.
+      RECORDAR RESPUESTA. LA OPCIÓN A NO LA HABÍAMOS TENIDO EN CUENTA.
+
+47. Como desarrollador tiene que configurar su primera VM para hospedar un proceso que se ejecuta por la noche. ¿Cuál de las siguientes herramientas es la mejor opción?
+      - Azure PowerShell.
+      - La CLI de Azure.
+      - El Portal de Azure.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Plantillas de ARM.
+
+48. Se puede asociar una suscripción de Azure a varios inquilinos de Azure Active Directory (Azure AD).
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      RECORDAR RESPUESTA.
+
+49. Su empresa tiene un contrato de Software Assurance que incluye licencias de Microsoft SQL Server. Tiene previsto implementar SQL server en máquinas virtuales de Azure. ¿Qué debe hacer para minimizar los costos de licencia para la implementación?
+      - Utilizar Azure Hybrid Benefit.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Desasignar las máquinas virtuales durante las horas de inactividad.
+      - Utilizar las reservas de Azure.
+      - Configurar los presupuestos de Azure Cost Manager.
+      RECORDAR RESPUESTA. LA OPCIÓN B TAMBIÉN PARECÍA QUE PODÍA SER SOLUCIÓN.
+
+50. ¿Qué dos infraestructuras reflejan dos infraestructuras válidas para la nube híbrida?
+      - Nube privada y nube pública.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Infraestructura local y nube pública.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Múltiples nubes públicas.
+      - Infraestructura local y nube privada.
+
+51. Una empresa puede ampliar la capacidad de su red interna utilizando la nube pública.
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Falso.
+
+52. Una Azure Web app que consulta un servidor local Microsoft SQL es un ejemplo de:
+      - Nube híbrida.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Nube privada.
+      - Nube pública.
+      - Nube multi-vendor.
+      RECORDAR RESPUESTA E INTENTAR RAZONAR EL POR QUÉ.
+
+53. Una solución de plataforma como servicio (PaaS) que aloja aplicaciones Web en Azure puede recibir memoria adicional cambiando el nivel de precios.
+      - Verdadero.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Falso.
+      "Una solución PaaS no proporciona acceso al sistema operativo. Mientras usa una aplicación Azure PaaS que hospeda sus aplicaciones web, puede cambiar el nivel de precios para agregar memoria adicional".
+
+54. ¿Cuál de los siguientes se utilizan para determinar los costos de Azure para cada periodo de facturación?
+      - Métricas de uso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - La calculadora de precios de Azure.
+      - El número de máquinas virtuales creadas.
+      - La web de Azure.
+      RECORDAR RESPUESTA. LA OPCIÓN D NO ES CORRECTA.
+
+55. ¿Puedes asignar un Azure blueprint a un grupo de recursos (resource group)?
+      - Verdadero.
+      - Falso.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      RECORDAR RESPUESTA. INVESTIGAR QUE ES UN AZURE BLUEPRINT.
+
+56. ¿Qué servicio ofrece un análisis oficial de la causa principal (RCA) de la interrupción en los incidentes de Azure?
+      - Azure Advisor.
+      - Azure monitor.
+      - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+57. ¿Qué tarea puede realizar el Azure Advisor?
+      - Integrar Active Directory y Azure Active Directory (Azure AD).
+      - Confirma que la seguridad de la suscripción de Azure sigue las mejores prácticas.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Estima los costos de una solución de Azure.
+      - Evalúa que recursos locales se pueden migrar a Azure.
+      TIRÁNDOME TRIPLE ACIERTO GRACIAS A COMPARAR LA LÓGICA DEL RESTO DE OPCIONES POSIBLES.
+
+58. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG1. De la documentación de Azure tiene el siguiente comando que crea una máquina virtual llamada VM1. az vm create --resource-group RG1 -nombre VM1 --image UbuntuLTS --generate-ssh-keys. Debe crear VM1 en Subscription1 mediante el comando. Solución: Instale la CLI de Azure en su equipo que ejecuta windows 10. Desde powershell, inicie sesión en Azure y luego ejecute el comando.
+      - Sí.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - No.
+
+59. Su entorno de Azure contiene varias máquinas virtuales de Azure. Debe asegurarse de que se pueda acceder a una máquina virtual llamada VM1 desde internet a través de HTTP. ¿Cuáles son dos posibles soluciones?
+      - Modify an Azure Trac Manager prole.
+      - Modify a DDoS protecction plan.
+      - Modify an Azure Firewall.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+      - Modify a network security group (NSG).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
