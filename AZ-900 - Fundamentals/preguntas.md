@@ -73,8 +73,8 @@
 
 <b>3. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG-AZ-900. Tiene la intención de utilizar el siguiente comando que crea una máquina virtual llamada VirtualMachine01. az vm create --resource-group RG-AZ-900 --name VirtualMachine01 --image UbuntuLTS --generate-ssh-keys. Necesita crear una VirtualMachine01 en RG-AZ-900-Subscription1 usando el comando. Solución: Instale la CLI de Azure en su equipo que ejecuta Windows 10. Desde el símbolo de sistema, inicie sesión en Azure y luego ejecute el comando. ¿Funcionará?</b>
    - Sí.
-   - No.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br>
-   "El comando se puede ejecutar desde PowerShell o el símbolo del sistema si tiene CLI en Azure instalada. Sin embargo, debe ejecutarse en la computadora con Windows 10, no en Azure".
+   - No.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b><br><br>
+   <b>"El comando se puede ejecutar desde PowerShell o el símbolo del sistema si tiene CLI en Azure instalada. Sin embargo, debe ejecutarse en la computadora con Windows 10, no en Azure".</b><br><br>
 
 <b>4. Tiene una suscripción de Azure denominada Subscription1. Inicie sesión en Azure Portal y cree un grupo de recursos denominado RG1. De la documentación de Azure, tiene el siguiente comando que crea una maquina virtual llamada VM1. az vm create --resource-group RG1 -nombre VM1 --image UbuntuLTS --generate-ssh-keys. Debe crear VM1 en Subscription1 mediante el comando. Solución: Desde Azure Portal, inicie Azure Cloud Shell y seleccione PowerShell. Ejecute el comando en Cloud Shell. ¿Esto cumple la meta?</b>
    - Sí.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
