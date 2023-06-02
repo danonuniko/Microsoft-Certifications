@@ -40,7 +40,7 @@
 "The number os fault domains for managed availability sets varies by region - either two or three per region."
 
 <b>7. Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformUpdateDomainCount property?</b>
-- 10.
+- <label>10.</label>
 - 20.
 - 30.
 - 40.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -58,7 +58,7 @@
 You company has an on-premises deployment of MongoDB, and an Azure Cosmos DB account that makes use of the MongoDB API.
 You need to devise a strategy to migrate MongoDB to the Azure Cosmos DB account.
 You include the Data Management Gateway tool in your migration strategy.
-Instructions: Review the underlined text. If it makes the statement correct, select `No change required.` If the statement is incorrect, select the answer choice that makes the statement correct.
+Instructions: Review the underlined text. If it makes the statement correct, select `No change required.` If the statement is incorrect, select the answer choice that makes the statement correct.</b>
 - No change required.
 - Mongorestore.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - Azure Storage Explorer.
@@ -91,4 +91,6 @@ Which two of the following parameters must be used in conjunction to meet the re
 - EnablePurgeProtection.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - EnabledForTemplateDeployment.
 - EnableSoftDelete.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+<b>13. </b>
 
