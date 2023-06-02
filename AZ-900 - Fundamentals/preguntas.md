@@ -53,10 +53,33 @@
       - Conjuntos de escalado.
       - Conjuntos de actualizaciones.
 
-12. ¿Qué servicio de Azure permite a los usuarios utilizar una versión hospedada en la nube de Windows desde cualquier ubicación y conectarse desde los exploradores más modernos?
-      - Azure Virtual Desktop.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
-      - Azure Virtual Machines.
-      - Azure Container Instances.
+<b>12. ¿Qué servicio de Azure permite a los usuarios utilizar una versión hospedada en la nube de Windows desde cualquier ubicación y conectarse desde los exploradores más modernos?</b>
+   - Azure Virtual Desktop.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Virtual Machines.
+   - Azure Container Instances.
+  
+13. ¿Qué herramienta mantiene automáticamente los archivos entre un servidor Windows local y un entorno de nube Azure actualizado?
+   - Azure File Sync.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Explorador de Azure Storage.
+   - AzCopy.
+
+   "Azure File Sync garantiza la sincronización bidireccional de los archivos entre los servidores de Windows para el entorno local y en la nube".
+
+<b>14. ¿Qué opción de redundancia de almacenamiento proporciona el mayor grado de durabilidad, con 16 nueves de durabilidad?</b>
+   - Almacenamiento con redundancia local.
+   - Almacenamiento con redundancia de zona.
+   - Almacenamiento con redundancia de zona geográfica.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+  
+   "El almacenamiento con redundacia geográfica (GRS) y el almacenamiento con redundancia de zona geográfica (GZRS) proporcionan 16 nueves de durabilidad".
+
+<b>15. ¿Qué servicio de Azure Storage admite el análisis de macrodatos, así como el control de tipos de datos binarios y de texto?</b>
+   - Azure Blobs.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Files.
+   - Azure Disks.
+
+   "Azure Blobs es un almacén de objetos que se puede escalar de forma masiva para datos de texto y binarios. Azure Blobs también incluye compatibilidad con el análisis de macrodatos mediante Data Lake Storage Gen2".
+
+
 <br><br>
 
 
