@@ -94,3 +94,21 @@ Which two of the following parameters must be used in conjunction to meet the re
 
 <b>13. </b>
 
+<b>14. You manage an Azure SQL database that allows for Azure AD authentication.
+You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Active Directory account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum. Which of the following should you implement?</b>
+- Azure AD token.
+- Azure Multi-Factor authentication.
+- Active Directory integrated authentication.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- OATH software tokens.
+
+TERMINAR PREGUNTA.
+
+<b>15. You are developing an application to transfer data between on-premises file servers and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault and makes use of the Azure Key Vault APIs. You want to configure the application to allow recovery of an accidental deletion of the key vault or key vault objects for 90 days after deletion. What should you do?</b>
+- Run the Add-AzKeyVaultKey cmdlet.
+- Run the az keyvault update --enable-soft-delete true --enable-purge-protection true CLI.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Implement virtual network service endpoints for Azure Key Vault.
+- Run the az keyvault update --enable-soft-delete false CLI.
+
+"When soft-delete is enabled, resources marked as deleted resources are retained for a specified period (90 days by default). The service further provides a mechanism for recovering the deleted object, essentially undoing the deletion. Purge protection is an optional Key Vault behavior and is not enabled by default. Purge protection can only be enabled once soft-delete is enabled. When purge protection is on, a vault or an object in the deleted state cannot be purged until the retention period has passed. Soft-deleted vaults and objects can still be recovered, ensuring that the retention policy will be followed. The default retention period is 90 days, but it is possible to set the retention policy interval to a value from 7 to 90 days through the Azure portal. Once the retention policy interval is set and saved it cannot be changed for that vault."
+
+<b>16. </b>
