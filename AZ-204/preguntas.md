@@ -32,8 +32,8 @@
 - Functions.
 
 <b>6. Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformFaultDomainCount property?</b>
-- 10.
-- 30. 
+- <label>10.</label>
+- <label>30.</label>
 - Min Value.
 - Max Value.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
   
@@ -41,9 +41,9 @@
 
 <b>7. Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformUpdateDomainCount property?</b>
 - <label>10.</label>
-- 20.
-- 30.
-- 40.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- <label>20.</label>
+- <label>30.</label>
+- <label>40.</label>  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
 "Each virtual machine in your availability set is assigned an update domain and a fault domain by the underlying Azure platform. For a given availability set, five non-user-configurable update domains are assigned by default (Resource Manager deployments can then be increased to provide up to 20 update domains) to indicate groups of virtual machines and underlying physical hardware that can be rebooted at the same time."
 
