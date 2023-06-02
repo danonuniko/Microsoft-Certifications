@@ -500,6 +500,99 @@
 
    RECORDAR RESPUESTA.
       
-<b>RESULTADOS PRIMERA VUELTA: 41/71 (57%) => SUSPENSO.</b><br>
+<b>RESULTADOS PRIMERA VUELTA: 41/71 (57%) => SUSPENSO.</b>
 
 <h2 align="center">PREGUNTAS EXÁMENES PREPARATORIOS GRATUITOS</h2><br>
+
+<b>1. Which two scenarios are common billing use cases for resource tags? Each correct answer presents a complete solution.</b>
+   - categorizing costs by department.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - associating costs with different environments.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - resizing underutilized virtual machines.
+   - identifying lower cost regions.
+  
+   "You can use tags to categorize costs by department, such as human resources, marketing, or finance, or by environment, such as test or production. Resizing underutilized virtual machines is a good cost saving measure and provisioning resources in lower cost regions is a good practice, but resource tags do not help with this."
+
+<b>2. You need to associate the costs of resources to different groups within an organization without changing the location of the resources. What should you use?</b>
+   - Resource tags.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource groups.
+   - Subscriptions.
+   - Administrative units.
+
+   "Resource tags can be used to group billing data and categorize costs by runtime environment, such as billing usage for virtual machines running in a production environment."
+
+<b>3. Select the answer that correctly completes the sentence: 
+
+Increasing compute capacity for an app by adding RAM or CPUs to a virtual machine is called _______.</b>
+   - Vertical scaling.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Horizontal scaling.
+   - Disaster recovery.
+   - High availability.
+  
+   "You scale vertically to increase compute capacity by adding RAM or CPUs to a virtual machine. Scaling horizontally increases compute capacity by adding instances of resources, such as adding virtual machines to the configuration. Disaster recovery keeps data and other assets safe in the event of a disaster. High availability minimizes downtime when things go wrong."
+
+<b>4. Your organization plans to deploy several production virtual machines that will have consistent resource usage throughout the year. What can you use to minimize the costs of the virtual machines without reducing the functionality of the virtual machines?</b>
+   - Azure Monitor alerts.
+   - Azure Reservations.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Spending limits.
+
+   "Azure Reservations offers discounted prices on certain Azure services. Azure Reservations can save you up to 72% compared to pay-as-you-go prices. To receive a discount, you can reserve services and resources by paying in advance. Spending limits can suspend a subscription when the spend limit is reached."
+
+<b>5. Which two factors affect Azure costs? Each correct answer presents a complete solution.</b>
+   - Availability zone selection.
+   - Resource usage.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource location.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Date and time of use.
+
+   "Usage meters, such as CPU time, disk size, and write operations, are usad to calculate your bill for an Azure resource. Deleting or deallocating a resource means that you will no longer be billed for it. Different regions can have different associated prices. Resources cost the same no matter the time of day or the day of the week."
+
+<b>6. What can you use to ensure that a development team can only create virtual machines of a certain size?</b>
+   - Azure Blueprints.
+   - Azure Policy.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Cloud Adoption Framework.
+   - Conditional Access.
+
+   "Azury Policy enables you to define both individual policies and groups of related policies called initiatives. Azure Policy evaluates your resources and highlights resources that are not compliant with the policies you created. Azure Policy can also prevent noncompliant resources from being created."
+
+<b>7. You plan to build a new solution in Azure that will use platform as a service (PaaS) products. What should you use to estimate the monthly costs?</b>
+   - Total Cost of Ownership (TOC) Calculator.
+   - Azure Pricing calculator.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Advisor.
+   - Azure Cost Management.
+
+   "The Azure Pricing calculator allows you to estimate and configure according to your specific requirements. You will then receive a consolidated estimated price and a detailed breakdown of the costs associated with each resource you added to you solution."
+
+<b>8. Which two actions can be performed by using the graphical user interface (GUI) in the Azure portal? Each correct answer presents a complete solution.</b>
+   - Create new resources.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Review a graphical view of all the services you are using.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Change the availability zone of a virtual machine.
+   - Repeatedly set up one or more resources and ensure that all the dependencies are created in the proper order.
+
+   "The Azure portal provides a GUI to view all the services you are using, create new services, configure your services, and view reports."
+
+<b>9. Select the answer that correctly completes the sentence:
+
+_________ is the logical container used to combine and organize Azure resources.</b>
+   - A resource group.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Resource Manager (ARM).
+   - A management group.
+   - An Azure region.
+
+   "Resources are combined into resource groups, which act as a logical container into which Azure resources like wep apps, databases, and storage accounts, are deployed and managed."
+
+<b>10. Which two tools are accessible via Azure Cloud Shell and allows you to write Bash scripts to manage an Azure environment?</b>
+   - Azure PowerShell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Resource Manager (ARM) templates.
+   - Azure Repos.
+   - Azure CLI.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Azure CLI is an executable program with which a user can execute commands in Bash that call the Azure REST API. Azure Cloud Shell also supports Azure PowerShell as an executable program."
+
+<b>11. Select the answer that corretly completes the sentence.
+
+In a region pair, a region is paired with another region in the same ________</b>
+   - geography.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - availability zone.
+   - resource group.
+   - datacenter.
+
+   "Each Azure region is always paired with another region within the same geography, such as US, Europe, or Asia, at least 300 miles away."
