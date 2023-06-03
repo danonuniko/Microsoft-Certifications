@@ -589,10 +589,101 @@ _________ is the logical container used to combine and organize Azure resources.
 
 <b>11. Select the answer that corretly completes the sentence.
 
-In a region pair, a region is paired with another region in the same ________</b>
+In a region pair, a region is paired with another region in the same ________.</b>
    - geography.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - availability zone.
    - resource group.
    - datacenter.
 
    "Each Azure region is always paired with another region within the same geography, such as US, Europe, or Asia, at least 300 miles away."
+
+<b>12. You have an Azure virtual machine that is accessed only between 9:00 and 17:00 each day. What should you do to minimize costs but preserve the associated hard disk and data?</b>
+   - Deallocate the virtual machine.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Delete the virtual machine.
+   - Resize the virtual machine.
+   - Implement Privileged Identity Management.
+
+   "If you have virtual machine workloads that are used only during certain periods, but you run them every hour or every day, then you are wasting money. These virtual machines are great candidates to deallocate when not in use and start back when required to save compute costs while the virtual machines are deallocated."
+
+<b>13. You need to recommend a solution for Azure virtual machine deployments. The solution must enforce company standards on the virtual machines. What should you include in the recommendation?</b>
+   - Azure Cost Management.
+   - Azure Lock.
+   - Azure Policy.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Blueprints.
+
+   "Azure policies will allow you to enforce company standards on new virtual machines when combined with Azure VM Image Builder and Azure Compute Gallery. By using Azure Policy and role-based access control (RBAC) assignments, enterprises can enforce standards on Azure resources. But on virtual machines, these mechanisms only affect the control plane or the route to the virtual machine."
+
+<b>14. What should you use to access Azure Cloud Shell?</b>
+   - A web browser.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Resource Manager (ARM).
+   - Microsoft Visual Studio Code.
+   - The command-line on a local computer.
+
+   "Cloud Shell is an interactive, browser-accessible shell for managing Azure resources."
+
+<b>15. What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?</b>
+   - Azure Resource Manager (ARM) templates.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure CLI.
+   - Azure PowerShell.
+   - Azure REST API.
+
+   "ARM templates define an application's infrastructure requirements for a repeatable deployment that is done in a consistent manner. A validation step ensures that all resources can be created in the proper order based on dependencies, in parallel and idempotent."
+
+<b>16. You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?</b>
+   - Azure Service Health.
+   - Azure Advisor.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Monitor.
+   - Log Analytics.
+
+   "Azure Advisor evaluates Azure resources and makes recommendations to help improve reliability, security, and performance, achieve operational excellence, and reduce costs."
+
+<b>17. Which two tools can you use to create a new Azure virtual machine from a mobile device that runs Android?</b>
+   - The Azure portal.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - SSH.
+   - Remote Desktop.
+   - PowerShell in Azure Cloud Shell.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "The Azure portal can run on devices that have the Android operating system installed. The browser can be any type, such as Intenet Explorer 11, Chrome, Firefox or Safari (all the latest versions). When you visit the portal, you will see Clod Shell. Users can then access Bash and PowerShell from within Cloud Shell. You can use Bash and PowerShell to create Azure virtual machines."
+
+<b>18. Which two components are created in an Azure subscription?</b>
+   - Resources.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource groups.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Management groups.
+   - Azure AD user accounts.
+
+   "Resources can only be associated with a single subscription. Subscriptions may be grouped into management groups. An account may be associated with multiple subscriptions."
+
+<b>19. What can you use to manage servers across cloud platforms and on-premise environments?</b>
+   - Azure Arc.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure CLI.
+   - Azure Monitor.
+   - Azure PowerShell.
+
+   "Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform."
+
+<b>20. What is an Azure Storage account named storage001 an example of?</b>
+   - A resource.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - A resource group.
+   - A subscription.
+   - A resource manager.
+
+   "A resource is a manageable item that is available through Azure. Virtual machines, storage accounts, web apps, databases, and virtual networks are examples of resources."
+
+<b>21. What provides recommendations to reduce the cost of Azure resources?</b>
+   - Azure Advisor.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Microsoft Defender for Cloud.
+   - Azure Dashboard.
+   - Azure Service Health.
+
+   "Azure Advisor analyzes the account usage and makes recommendations based on its set and configured rules."
+   
+<b>22. Which resource can you use to manage access, policies and compliance across multiple subscriptions?</b>
+   - Management groups.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource groups.
+   - Administrative units.
+
+   "Management groups can be used in environments that have multiple subscriptions to streamline the application of governance conditions.  
+   Resource groups can be used to organize Azure resources.  
+   Administrative units are used to delegate the administration of Azure AD resources, such as users and groups.  
+   Accounts are used to provide access to resources."
+
