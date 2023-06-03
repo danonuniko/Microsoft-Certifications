@@ -798,3 +798,116 @@ _______ is the deployment and management service for Azure.</b>
    - Archive.
 
    "The Hot tier is optimized for storing data that is accessed frequently. The Cool access tier has a slightly lower availability SLA and higher access costs compared to hot data, which are acceptable trade-offs for lower storage costs. Archive storage stores data offline and offers the lowest storage costs, but also the highest costs to rehydrate and access data."
+
+<b>37. What enables a user to sign in one time and use that credential to access multiple resources and applications from different providers?</b>
+   - Single sign-on (SSO).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Multi-factor authentication (MFA).
+   - Conditional Access.
+   - Device management.
+
+   "SSO enables a user to sign in one time and use that credential to access multiple resources and applications from different providers. MFA is a process whereby a user is prompted during the sign-in process for an additional form of identification. Conditional Access is a tool that Azure AD uses to allow or deny access to resources based on identity signals. Azure AD supports the registration of devices."
+
+<b>38. You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you include in the solution?</b>
+   - Azure Service Health.
+   - Azure Advisor.
+   - Azure Monitor.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Application insights.
+
+   "Azure Monitor is a platform that collects metric and logging data, such as CPU percentages. The data can be used to trigger autoscaling."
+
+<b>39. What Azure AD feature can you use to configure security authentication that requires users to use their mobile phone to sign in?</b>
+   - Microsoft Defender for Cloud.
+   - Microsoft Entra Verified ID.
+   - Azure Information Protection (AIP).
+   - Multi-factor authentication (MFA).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "MFA is the concept of requiring something more than only a password to sign in to an application. You can use the mobile phone to receive a phone call, text, or a code to get authenticated."
+
+<b>40. What can you use to allow a user to manage all the resources in a resource group?</b>
+   - Azure role-based access control (RBAC).   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource tags.
+   - Resource locks.
+   - Azure Key Vault.
+
+   "Azure RBAC allows you to assign a set of permissions to a user or group. Resource tags are used to locate and act on resources associated with specific workloads, environments, business units and owners. Resource locks prevent the accidental change or deletion of a resource. Key Vault is a centralized cloud service for storing an application secrets in a single, central location."
+
+<b>41. To which object or level is an Azure role-based access control (RBAC) role applied?</b>
+   - Resource lock.
+   - Scope.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource tag.
+   - Policy.
+
+   "An Azure RBAC is applied to a scope, which is a resource or set of resources that the access applies to. Resource locks prevent the accidental change or deletion of a resource. Resource tags are used to locate and act on resources associated with specific workloads, environments, business units and owners. Policies enforce different rules across resource configurations so that the configurations stay compliant with corporate standards."
+
+<b>42. What are cloud-based backup services, data replication, and geo-distribution features of?</b>
+   - A disaster recovery plan.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - An elastic application configuration.
+   - A cost reduction plan.
+   - A hybrid cloud deployment.
+
+   "Disaster recovery uses services, such as cloud-based backup, data replication, and geo-distribution, to keep data and code safe in the event of a disaster."
+
+<b>43. You need to compare the costs of running an application in an on-premises datacent with the costs of running the application in Azure. What should you use to assist you?</b>
+   - Azure Pricing calculator.
+   - Azure Advisor.
+   - Azure Cost Management.
+   - Total Cost of Ownership (TCO) Calculator.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "The TCO Calculator helps you estimate the cost savings over time of operating a solution in Azure compared to operating in an on-premises datacenter."
+
+<b>44. In which two deployments models are customers responsible for managing operating systems that host application?</b>
+   - Software as a service (SaaS).
+   - Platform as a service (PaaS).
+   - Infrastructure as a service (IaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - On-premises.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Operating systems are managed by customers when using IaaS or an on-premises deployments. The operating systems are not accessible in PaaS and SaaS deployments."
+
+<b>45. Select the answer that correctly completes the sentence:
+
+Deploying and configuring cloud-based resources quickly as business requirements change is called _________</b>
+   - Agility.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Scalability.
+   - Elasticity.
+   - High availability.
+
+   "Agility means that you can deploy and configure cloud-based resources quickly as app requirements change. Scalability means that you can add RAM, CPU or entire virtual machines to a configuration. Elasticity means that you can configure cloud-based apps to take advantage of autoscaling, so apps always have the resources they need. High availability means that cloud-based apps can provide a continuous user experience with no apparent downtime, even when things go wrong."
+
+<b>46. In a platform as a Service (PaaS) model, which two components are the responsibility of the cloud service provider?</b>
+   - Operating system.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Physical network.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - User access.
+   - Information and data.
+
+   "In PaaS, the cloud provider is responsible for the operating system, physical datacenter, physical hosts, and physical network. In PaaS, the customer is responsible for accounts and identities."
+
+<b>47. Which Azure service evaluates Azure resources and makes recommendations to help improve reliability, security, performance and cost reduction?</b>
+   - Azure Monitor.
+   - Azure Service Health.
+   - Log Analytics.
+   - Azure Advisor.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Azure Advisor evaluates Azure resources and makes recommendations to help improve reliability, security and performance, achieve operational excellence and reduce costs."
+
+<b>48. What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?</b>
+   - Health advisories.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Service issues.
+   - Application insights.
+   - Azure monitor.
+
+   "Health advisories are issues that require that you take proactive action to avoid service interruptions, such as service retirements and breaking changes. Service issues are problems such as outages that require immediate actions."
+
+<b>49. What can you use to get notification about an outage in a specific Azure region?</b>
+   - Azure Advisor.
+   - Azure Security Center.
+   - Azure Monitor.
+   - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Service Health notifies you of Azure-related service issues, such as region-wide downtime."
+
+<b>50. Which cloud service model provides you with the most control over the hardware that runs applications?</b>
+   - Software as a service (SaaS).
+   - Platform as a service (PaaS).
+   - Infrastructure as a service (IaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "IaaS is the most flexible category of cloud services. It aims to give you complete control over the hardware that runs applications. Users do not control the operating system and do not configure the underlying servers in PaaS. With SaaS, you are using as-is software hosted in the cloud, instead of creating a platform to host a software yourself."
