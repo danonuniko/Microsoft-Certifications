@@ -687,3 +687,114 @@ In a region pair, a region is paired with another region in the same ________.</
    Administrative units are used to delegate the administration of Azure AD resources, such as users and groups.  
    Accounts are used to provide access to resources."
 
+<b>23. You need to review the root cause analysis (RCA) report for a service outage that occurred last week. Where should you look for the report?</b>
+   - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Advisor.
+   - Azure Monitor.
+   - Log Analytics.
+
+   "After an outage, Service Health provides official incident reports called root cause analysis (RCA), which you can share with stakeholders."
+
+<b>24. Select the answer that correctly completes the senctence:
+
+_______ is the deployment and management service for Azure.</b>
+   - Azure AD.
+   - Azure API management.
+   - Azure Monitor.
+   - Azure Resource Manager (ARM).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "ARM is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in an Azure subscription. You use management features, such as access control, resource locks, and resource tags to secure and organize resources after deployment."
+
+<b>25. What can you use to execute code in a serverless environment?</b>
+   - Azure Logic Apps.
+   - Azure Functions.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Virtual Desktop.
+   - Azure Container Instances.
+
+   "Azure Functions allows you to run code as a service without having to manage the underlying platform or infrastructure. Azure Logic Apps is similar to Azure Functions, but uses predefined workflows instead of developing your own code."
+
+<b>26. What can you use to find information about planned maintenance for Azure services that are critical to your organization?</b>
+   - Azure Service Health.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Advisor.
+   - Azure Monitor.
+   - Log Analytics.
+
+   "You can drill down to the affected services, regions and details to show how an event will affect you and what you must do. Most of these events occur without any impact to you and will not be shown. In a rare case that a reboot is required, Service Health allows you to choose when to perform the maintenance to minimize the downtime."
+
+<b>27. Which scenario is a use case for a VPN gateway?</b>
+   - Connecting an on-premises datacenter to an Azure virtual network.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Partitioning a virtual network's address space.
+   - Communicating between Azure resources.
+   - Filtering outbound network traffic.
+
+   "A VPN gateway is a type of virtual network gateway. Azure VPN Gateway instances are deployed to a dedicated subnet of a virtual network. You can use them to connect on-premises datacenters to virtual networks through a Site-to-Site (S2S) VPN connection."
+
+<b>28. Which two attributes are characteristics of the private cloud deployment model?</b>
+   - Hardware must be purchased.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - The company has complete control over physical resources and security.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Applications can be provisioned and deprovisioned quickly.
+   - Organizations only pay for what they use.
+
+   "In a private cloud, hardware must be purchased for start up and maintenance. In a private cloud, organizations control resources and security. Quick provisioning is a characteristic of the public cloud deployment model. Paying only for what is used is a characteristic of the public cloud deployment model."
+
+<b>29. What can you use to provide Mac and Android users with access to a Windows-based applications?</b>
+   - Azure Logic Apps.
+   - Azure Functions.
+   - Azure Virtual Desktop.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Container Instances.
+
+   "Azure Virtual Desktop is a desktop and application virtualization service that runs in the cloud. It enables your users to use a cloud-hosted version of Windows from any location. Azure Virtual Desktop works across devices such as Windows, Mac, iOS, Android and Linux. It works with apps that you can use to access Remote Desktops and apps. You can also use most modern browsers to access Azure Virtual Desktop-hosted experiences."
+
+<b>30. What are two characteristics of a consumption-based model?</b>
+   - No upfront costs.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Requires the purchase and management of the physical infrastructure.
+   - The ability to stop paying for resources that are no longer needed.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - High capital expenditures.
+
+   "In a consumption-based model, you do not pay for anything until you start using resources, and you only pay for what you use. If you stop using a resource, you stop paying for it. High expenditures are usually associated with the purchase of the physical infrastructure, which is not needed in a consumption-based model."
+
+<b>31. What are two services that allow you to run applications in containers?</b>
+   - Azure Container Instances.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Kubernetes Service (AKS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Logic Apps.
+   - Azure Functions.
+
+   "Containers are a virtualization environment. Much like running multiple virtual machines on a single physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you do not manage the operating system for a container."
+
+<b>32. Which two characteristics are common advantages of cloud computing?</b>
+   - High availability.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Geo-distribution.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Elimination of horizontal scaling.
+   - Physical access to servers.
+
+   "Cloud-based apps can provide a continuous user experience with no apparent downtime, even when things go wrong. You can deploy apps and data to regional datacenters around the globe, thereby ensuring that your customers always have the best performance in their region. Apps in cloud computing can scale vertically and horizontally. In a public model, you do not get physical access to servers, as they are managed by the cloud provider."
+
+<b>33. Which Azure Blobs storage tier stores data offline and offers the lowest costs and the highest costs to access data?</b>
+   - Archive.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Hot.
+   - Cool.
+
+   "The Archive storage tier stores data offline and offers the lowest storage costs, but also the highest costs to rehydrate and access data. The Hot storage tier is optimized for storing data that is accessed frequently. Data in the Cool access tier can tolerate slightly lower availability, but still requires high durability, retrieval latency, and throughput characteristics similar to hot data."
+
+<b>34. Which storage service offers fully managed file shares in the cloud that are accesible by using Server Message Block (SMB) protocol?</b>
+   - Azure Disk Storage.
+   - Azure Table Storage.
+   - Azure Queue Storage.
+   - Azure Files.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Azure Files offers fully managed file shares in the cloud with shares that are accessible by using Server Message Block (SMB) protocol. Mounting Azure file shares is just like connecting to shares on a local network."
+
+<b>35. Which two scenarios are common use cases for Azure Blob storage?</b>
+   - Storing data for backup and restore.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Hosting ASPX files for a website.
+   - Mounting a file storage share to be accessed as a virtual drive on multiple virtual machines.
+   - Serving images or documents directly to a browser.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Low storage cost and unlimited file formats make blob storage a good location to store backups and archives. Blob storage can be reached from anywhere by using an internet connection. Azure Disk Storage provides disks for Azure virtual machines. Azure Files supports mounting file storage shares."
+
+<b>36. Which Azure Blob storage service tier has the highest storage costs and the fastest access times for reading and writing data?</b>
+   - Hot.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Cool.
+   - Archive.
+
+   "The Hot tier is optimized for storing data that is accessed frequently. The Cool access tier has a slightly lower availability SLA and higher access costs compared to hot data, which are acceptable trade-offs for lower storage costs. Archive storage stores data offline and offers the lowest storage costs, but also the highest costs to rehydrate and access data."
