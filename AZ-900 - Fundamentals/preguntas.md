@@ -911,3 +911,44 @@ Deploying and configuring cloud-based resources quickly as business requirements
    - Infrastructure as a service (IaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
    "IaaS is the most flexible category of cloud services. It aims to give you complete control over the hardware that runs applications. Users do not control the operating system and do not configure the underlying servers in PaaS. With SaaS, you are using as-is software hosted in the cloud, instead of creating a platform to host a software yourself."
+
+<b>51. Which Azure service can generate an alert if virtual machine utilization is over 80% for five minutes?</b>
+   - Azure Advisor.
+   - Azure Monitor.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Policy.
+   - Azure Service Health.
+
+   "Azure Monitor is a platform for collectiong, analyzing, visualizing and alerting based on metrics. Azure Monitor can log data from an entire Azure and on-premises environment."
+
+<b>52. What is high availability in a public cloid environment dependent on?</b>
+   - The service-level agreement (SLA) that you choose.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - The vertical scalability of an app.
+   - Cloud-based backup retention limits.
+   - Capital expenditures.
+
+   "Different services have different SLAs. Sometimes different tiers of the same service will offer different SLAs, which can increase or decrease the promised availability."
+
+<b>53. What can be applied to a resource to prevent accidental deletion?</b>
+   - A resource lock.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - A resource tag.
+   - A policy.
+   - An Azure Reservation.
+
+   "A resource lock prevents resources from being accidentally deleted or changed. Resource tags offer the custom grouping of resorces. Policies enforce different rules across all resource configurations so that the configurations stay compliant with corporate standards. An initiative is a way of grouping related policies together."
+
+<b>54. Which cloud service model is used by Microsoft Office 365?</b>
+   - Infrastructure as a service (IaaS).
+   - Platform as a service (PaaS).
+   - Software as a service (SaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "SaaS allows users to connect to and use cloud-based apps over the internet. Common examples are email, calendaring and Office tools such as Office 365."
+
+<b>55. What uses the infrastructure as a service (IaaS) cloud service model?</b>
+   - Azure virtual machines.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure App Services.
+   - Microsoft Office 365.
+   - Azure Cosmos DB.
+
+   "Azure Virtual Machines is an IaaS offering. The customer is responsible for the configuration of the virtual machine as well as all operating system configurations. Azure App Service and Azure Cosmos DB are PaaS offering. Microsoft Officce 365 is a SaaS offering."
+
+<b>56. </b>
