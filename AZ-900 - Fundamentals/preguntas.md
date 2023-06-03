@@ -951,4 +951,59 @@ Deploying and configuring cloud-based resources quickly as business requirements
 
    "Azure Virtual Machines is an IaaS offering. The customer is responsible for the configuration of the virtual machine as well as all operating system configurations. Azure App Service and Azure Cosmos DB are PaaS offering. Microsoft Officce 365 is a SaaS offering."
 
-<b>56. </b>
+<b>56. Which type of cloud service are virtual networks?</b>
+   - Infrastructure as a service (IaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Platform as a service (PaaS).
+   - Software as a service (SaaS).
+  
+   "IaaS helps you reduce the cost and complexity of maintaining a physical server and its datacenter infrastructure. Virtual networks are part of the IaaS cloud service."
+
+<b>57. What are two basic services provided by all cloud providers?</b>
+   - Application development.
+   - Colocation.
+   - Compute.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Storage.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "All cloud providers provide compute and storage services. Colocation is when a business rents space in a shared physical datacenter. Application development is the responsibility of the customer and is typically done either in-house or through a third party."
+
+<b>58. Why is cloud computing often less expensive than on-premises datacenters?</b>
+   - You are only billed for what you use.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Network bandwidth is free.
+   - Cloud service offerings have limited functionality.
+   - Services are only offered in a single geographic location.
+
+   "Renting compute and storage services and being billed for only what you use often lowers operating expenses. Depending on the service and the type of network bandwidth, charges can be incurred. Cloud service offering often provide functionality that can be difficult or cost-prohibitive to deploy on-premises, especially for smaller organizations. Major cloud providers often services around the world. Making it easy and relatively inexpensive to deploy services close to where your users reside."
+
+<b>59. Which two Azure resources can make use of availability zones?</b>
+   - Azure SQL databases.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Virtual machines.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure subscriptions.
+   - Resource groups.
+
+   "Availability zones are primarily for virtual machines, managed disks, load balancers, and SQL databases."
+
+<b>60. Which two protocols are used to access Azure file shares?</b>
+   - FTP.
+   - HTTP.
+   - Network File System (NFS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Server Message Block (SMB).   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Azure Files offers fully managed file shares in the cloud that are accesible via industry-standard SMB and NFS protocols."Sle
+
+<b>61. Select the answer that correctly completes the sentence:
+
+________ are physically separate datacenter within an Azure region.</b>
+   - Geographies.
+   - Region pairs.
+   - Resource groups.
+   - Availability zones.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Availability zones are physically separate datacentes within an Azure region. Each availability zone is made up of one or more datacenters equipped with independent power, cooling and networking."
+
+<b>62. What can you use to sync identities from an on-premises Active Directory Domain Services (AD DS) domain to Azure AD?</b>
+   - Azure AD Connect.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Resource Manager (ARM).
+   - Conditional Access.
+   - Azure Key Vault.
+
+   "Azure AD Connect syncs user identities from an on-premises Active Directory Domain Serviecs (AD DS) domain to Azure AD. Azure AD Connect allows you to use features such as single sign-on (SSO), MFA, and self-service password reset (SSPR) in both systems. SSPR prevents users from using known compromised passwords."
