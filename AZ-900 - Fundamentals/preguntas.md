@@ -1007,3 +1007,132 @@ ________ are physically separate datacenter within an Azure region.</b>
    - Azure Key Vault.
 
    "Azure AD Connect syncs user identities from an on-premises Active Directory Domain Serviecs (AD DS) domain to Azure AD. Azure AD Connect allows you to use features such as single sign-on (SSO), MFA, and self-service password reset (SSPR) in both systems. SSPR prevents users from using known compromised passwords."
+
+<b>63. What can you use to ensure that users authenticate by using multi-factor authentication (MFA) when they attempt to sign in from a specific location?</b>
+   - Conditional Access.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure role-based access control (RBAC).
+   - Single sign-on (SSO).
+   - Administrative units.
+
+   "Conditional Access can use signals to determine information about authentication attempts, and then determine whether to block access or require additional verifications, such as MFA."
+
+<b>64. What is an advantage of cloud computing compared to on-premises deployments?</b>
+   - You can scale more quickly.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - You own your CPUs.
+   - You have full access in case of internet outage.
+   - You can work from multiple workstations.
+
+   "Cloud computing allows you to scale more quickly. Owning your own CPUs and having full access in the event of an internet outage are not features of cloud computing. Working from multiple workstations is not specific to cloud computing compared to an on-premises deployment."
+
+<b>65. What can you use to connect Azure resources, such as Azure SQL databases, to an Azure virtual network?</b>
+   - ExpressRoute.
+   - Network security groups (NSGs).
+   - Peering.
+   - Service endpoints.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Service endpoints are used to expose Azure services to a virtual network, providing communication between the two. ExpressRoute is used to connect an on-premises network to Azure. NSGs allow you to configure inbound and outbound rules for virtual networks and virtual machines. Peering allows you to connect virtual networks together."
+
+<b>66. Which Azure AD feature can you use to ensure that users can only access Microsoft Office 365 applications from approved client applications?</b>
+   - Azure role-based access control (RBAC).
+   - Single sign-on.
+   - Conditional Access.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Multi-factor authentication (MFA).
+
+   "Conditional Access allows administrators to control, allow or deny access to resources based on certain signals. You can require that access to certain applications only be allowed if the users are using an approved client application. MFA is a process whereby a user is prompted during the sign-in process for an additional form of identification. Examples include a code on their mobile phone or a fingerprint scan."
+
+<b>67. Which two services are provided by Azure AD?</b>
+   - Authentication.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Data encryption.
+   - Name resolution.
+   - Single sign-on (SSO).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Azure AD provides services for verifying identity and access to applications and resources. SSO enables you to remember a single username and password to access multiple applications and is available in Azure AD."
+
+<b>68. Select the answer that correctly completes the sentence:
+
+________ refers to upfront costs incurred one time, such as hadrware purchases.</b>
+   - Operational expenditures.
+   - Capital expenditures.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Elasticity.
+   - A consumption-based model.
+
+   "Capital expenditures are one-time expenses that can be deducted over time. Operational expenditures are billed as you use services and do not have upfront costs."
+
+<b>69. What can you use to ensure that a user can only access applications from compliant devices?</b>
+   - Single sign-on (SSO).
+   - Multi-factor authentication (MFA).
+   - Hybrid identity.
+   - Conditional Access.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Conditional Access is a tool that Azure AD uses to allow or deny access to resources based on identity signals, such as the device being used. SSO enables a user to sign in one time and use that credential to access multiple resources and applications from different providers. MFA is a process whereby a user is prompted during the sign-in process for an additional form of identification. Hybrid identity solutions create a common user identity for authentication and authorization to all resources, regardless of location."
+
+<b>70. Your organization is building a custom application. You need to focus on application development rather than configuration and management of servers. Which cloud service model should you use?</b>
+   - Infrastructure as a service (IaaS).
+   - Platform as a service (PaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Software as a service (SaaS).
+
+   "With PaaS, users can focus on application development because the cloud provider handles all the platform management. In SaaS, the cloud provider manages all aspects of the application environment, such as virtual machines, networking resources, data storage and applications. IaaS is the closest service model to managing physical servers."
+
+<b>71. Which cloud deployment model are you using if you have servers physically located at your organization's on-site datacenter, and you migrate a few of the servers to the cloud?</b>
+   - Private cloud.
+   - Public cloud.
+   - Hybrid cloud.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "A hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them."
+
+<b>72. Select the answer that correctly completes the sentence:
+
+Increasing compute capacity for an app by adding instances of resources such as virtual machines is called _______</b>
+   - Vertical scaling.
+   - Horizontal scaling.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Disaster recovery.
+   - High availability.
+
+   "Scaling horizontally increases compute capacity by adding instances of resources, such as adding virtual machines to the configuration. You scale vertically by adding RAM or CPUs to a virtual machine. Disaster recovery keeps data and other assets safe in the event of a disaster. High availability minimizes downtime when things go wrong."
+
+<b>73. Which cloud service model is used by Azure SQL Database?</b>
+   - Infrastructure as a service (IaaS).
+   - Platform as a service (PaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Software as a service (SaaS).
+
+<b>74. What uses the infrastructure as a service (IaaS) cloud service model?</b>
+   - Azure virtual machines.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure App Services.
+   - Microsoft Office 365.
+   - Azure Cosmos DB.
+
+   "Azure Virtual Machines is an IaaS offering. The customer is responsible for the configuration of the virtual machine as well as all operating system configurations. Azure App Services and Azure Cosmos DB are PaaS oferring. Microsoft Office 365 is a SaaS offering."
+
+<b>75. Which type of strategy uses a series of mechanisms to slow the advancement of an attack that aims to gain unauthorized access to data?</b>
+   - Defense in depth.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Least privileged access.
+   - Distributed denial-of-service (DDoS).
+   - Perimeter.
+
+   "A defense in depth strategy uses a series of mechanisms to slow the advancement of an attactk that aims to gain unauthorized access to data. The principle of least privilege means restricting access to information to only the level that users need to perform their work. A DDoS attack attempts to overwhelm and exhaust an application's resources. The perimeter layer is about protecting an organization's resources from network-based attacks."
+
+<b>76. What are two services that allow you to run applications in containers?</b>
+   - Azure Container Instances.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Kubernetes Service (AKS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Logic Apps.
+   - Azure Functions.
+
+   "Containers are virtualization environment. Much like running multiple virtual machines on a singhe physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you do not manage the operating system for a container."
+
+<b>77. Select the answer that correctly completes the sentence:
+
+An example of _________ is automatically scaling an application to ensure that the application has the resources needed to meet customer demands.</b>
+   - Agility.
+   - High availability.
+   - Geo-distribution.
+   - Elasticity.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Elasticity refers to the ability to scale resources as needed, such as during business hours, to ensure that an application can keep up with demand, and then reducing the available resorces during off-peak hours. Agility refers to the ability to deploy new applications and services quickly. High availability refers to the ability to ensure that a service or application remains available in the event of failure. Geo-distribution makes a service or application available in multiple geographic locations that are typically close to your users."
+
+<b>78. What can you use to allow a user to manage all the resources in a resource group?</b>
+   - Azure role-based access control (RBAC).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource tags.
+   - Resource locks.
+   - Azure Key Vault.
+
+   "Azure RBAC allows you to assign a set of permissions to a user or group. Resource tags are used to locate and act on resources associated with specific workloads, environments, business units and owners. Resource locks prevent the accidental change or deletion of a resource. Key Vault is a centralized cloud service for storing an application secrets in a single, central location."
