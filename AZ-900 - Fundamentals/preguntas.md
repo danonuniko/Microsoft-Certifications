@@ -653,7 +653,7 @@ In a region pair, a region is paired with another region in the same ________.</
 
    "Resources can only be associated with a single subscription. Subscriptions may be grouped into management groups. An account may be associated with multiple subscriptions."
 
-<b>19. What can you use to manage servers across cloud platforms and on-premise environments?</b>
+<b>19. What can you use to manage servers across cloud platforms and on-premises environments?</b>
    - Azure Arc.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - Azure CLI.
    - Azure Monitor.
@@ -1136,3 +1136,98 @@ An example of _________ is automatically scaling an application to ensure that t
    - Azure Key Vault.
 
    "Azure RBAC allows you to assign a set of permissions to a user or group. Resource tags are used to locate and act on resources associated with specific workloads, environments, business units and owners. Resource locks prevent the accidental change or deletion of a resource. Key Vault is a centralized cloud service for storing an application secrets in a single, central location."
+
+<b>79. Which Azure component allows you to replicate resources across a geography to ensure business continuity during a natural disaster at the primary site?</b>
+   - Region pairs.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Availability zones.
+   - Availability sets.
+   - Azure Virtual Machine Scale Sets.
+
+   "Region pairs allow the replication of Azure resources across geographies to help ensure that a secondary region is available in case of any disaster at the primary region."
+
+<b>80. You need to allow resources on two different Azure virtual networks to communicate with each other. What should you configure?</b>
+   - A network security group (NSG).
+   - A point-to-site VPN.
+   - Peering.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Service endpoints.
+
+   "You can link virtual networks together by using virtual network peering. Peering enables resources in each virtual network to communicate with each other."
+
+<b>81. Which two services can you use to establish network connectivity between an on-premises network and Azure resources?</b>
+   - ExpressRoute.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure VPN Gateway.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Bastion.
+   - Azure Firewall.
+
+   "ExpressRoute connections and Azure VPN Gateway are two services that you can use to connect an on-premises network to Azure. Bastion provides a web interface to remotely administer Azure virtual machines by using SSH/RDP. Azure Firewall is a stateful firewall service used to protect virtual networks."
+
+<b>82. What is the purpose of defense in depth?</b>
+   - To enable you to locate and act on resources that are associated with specific workloads, environments, business units and owners.
+   - To manage policies that control or audit resources so that the configurations stay compliant with corporate standards.
+   - To use several layers of protection to prevent information from being accessed by unauthorized users.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - To evaluate resources and make recommendations to help improve reliability and performance.
+
+   "The objective of defense in depth is to use several layers of protection to prevent information from being accesed or stolen by unauthorized users."
+
+<b>83. What are two characteristics of the public cloud deployment model?</b>
+   - Services are offered over the internet and are available to anyone who wants to purchase them.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Computing resources are used exclusively by users from one organization.
+   - Servers and storage are owned and operated by a third-party cloud service provider.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Hardware is physically located in an organization's on-site datacenter.
+
+   "In a public cloud, services are offered over the internet and are available to anyone who wants to purchase them. A private cloud is limited to a single organization. Cloud resources, such as servers and storage, are owned and operated by a third-party cloud service provider and delivered over the internet. A private cloud consists of computing resources used exclusively by users from one business or organization."
+
+<b>84. Which type of cloud service model is typically licensed through a monthly or annual subscription?</b>
+   - Infrastructure as a service (IaaS).
+   - Platform as a service (PaaS).
+   - Software as a service (SaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "SaaS is software that is centrally hosted and managed for you and your users or customers. Usually, one version of the application is used for all customers, and it is licensed through a monthly or annual subscription. PaaS and IaaS use a consumption-based model, so you only pay for what you use."
+
+<b>85. You need to identify which Azure services are compliant with ISO 27001 Information Security Management Standards. Where should you go to locate the information?</b>
+   - Microsoft Trust Center.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Microsoft Privacy Statement.
+   - The Data Protection Addendum of Microsoft.
+   - Microsoft Online Services Terms.
+
+   "The Trust Center showcases the Microsoft principles for maintaining data integrity in the cloud and how Microsoft implements and supports security, privacy, compliance, and transparency in all Microsoft cloud products and services."
+
+<b>86. What allows you to orchestrate the deployment of resource templates, Azure Policy assignments, and resource groups?</b>
+   - Azure Blueprints.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Functions.
+   - Azure App Services.
+   - Azure Cognitive Services.
+
+   "Azure Blueprints simplifies large scale Azure deployments by packaging key environment artifacts, such as Azure Resource Manager (ARM) templates, role-based access controls (RBAC) and policies into a single blueprint definition. You can easily apply the blueprint to new subscriptions and environments."
+
+<b>87. You need to ensure that multi-factor authentication (MFA) is enabled on accounts with write permissions in an Azure subscription. What should you implement?</b>
+   - Resource tags.
+   - Cloud Adoption Framework.
+   - Resource locks.
+   - Azure Policy.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Azure Policy is a service in Azure that enables you to create, assign and manage policies that control or audit resources."
+
+<b>88. What can you use to restrict the deployment of a virtual machine to a specific location?</b>
+   - Azure AD.
+   - Resource locks.
+   - Azure Policy.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Resource groups.
+
+   "Azure Policy can help to create a policy for allowed regions, which enables you to restrict the deployment of virtual machines to a specific location."
+
+<b>89. What can you use to automatically detect performance anomalies for web apps?</b>
+   - Azure DevOps.
+   - Azure Cognitive Services.
+   - Azure Advisor.
+   - Azure Application Insights.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Application Insights is a feature of Azure Monitor that allows you to monitor running applications, automatically detect performance anomalies, and use built-in analytics tools to see what users do on an app."
+
+<b>90. Which management layer accepts requests from any Azure tool or API and enables you to create, update and delete resources in an Azure account?</b>
+   - Azure Resource Manager (ARM).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure management groups.
+   - Azure CLI.
+   - Azure Sphere.
+
+   "ARM is the deployment and management service for Azure. It provides a management layer that enables you to create, update and delete resources in an Azure account."
