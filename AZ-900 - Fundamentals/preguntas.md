@@ -80,6 +80,27 @@
    - Azure Disks.
 
    "Azure Blobs es un almacén de objetos que se puede escalar de forma masiva para datos de texto y binarios. Azure Blobs también incluye compatibilidad con el análisis de macrodatos mediante Data Lake Storage Gen2".
+
+<b>16. ¿Qué herramienta de Azure Active Directory puede cambiar las credenciales necesarias para iniciar sesión en función de las señales, como dónde se encuentra el usuario?</b>
+   - Acceso condicional.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Acceso de invitado.
+   - Inicio de sesión sin contraseña.
+
+   "El acceso condicional es una herramienta que usa Azure Active Directory para permitir (o denegar) el acceso a los recursos en función de señales de identidad. Acceso condicional puede pedir un segundo factor de autenticación si las señales de inicio de sesión son inusuales o proceden desde una ubicación inesperada."
+
+<b>17. ¿Qué modelo de seguridad supone el peor escenario de seguridad y protege los recursos en consecuencia?</b>
+   - Confianza cero.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Defensa en profundidad.
+   - Control de acceso basado en roles.
+
+   "Confianza cero es un modelo de seguridad que supone el peor de los escenarios posibles y protege los recursos con esa expectativa."
+
+<b>18. A un usuario se le asignan simultáneamente varios roles que usan el control de acceso basado en rol. ¿Cuáles son sus permisos reales? Los permisos de rol son: Rol 1 - Lectura || Rol 2 - Escritura || Rol 3 - Lectura y Escritura</b>
+   - Solo lectura.
+   - Solo escritura.
+   - Lectura y escritura.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "El control de acceso basado en rol, mediante un modelo de permisos, concede todos los permisos asignados en todos los roles asignados."
    
    <br>
 
