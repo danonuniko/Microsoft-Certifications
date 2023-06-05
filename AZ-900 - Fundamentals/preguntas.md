@@ -129,6 +129,20 @@
    - Azure Resource Monitor.
 
    "Azure Policy le permite crear directivas e iniciativas (grupos de directivas) que impiden la creación de recursos no compatibles."
+
+<b>23. ¿Qué servicio le ayuda a administrar los entornos de Azure, locales y de varias nubes?</b>
+   - Azure Arc.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Policy.
+   - Azure Cloud Manager.
+
+   "Azure Arc, junto con Azure Resource Manager, le permite ampliar el cumplimiento y la supervisión de Azure a las configuraciones híbridas y de varias nubes."
+
+<b>24. ¿Qué dos componentes podría usar para implementar una implementación de "infraestructura como código"?</b>
+   - Azure Blueprints y plantillas de ARM.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Policy Azure Arc.
+   - Azure Monitor y Azure Arc.
+
+   "Azure Blueprints aplica directivas de forma automatizadas y las plantillas de ARM le permiten implementar el recurso como código. El uso conjunto de los dos ayuda a garantizar que se implementen recursos coherentes y compatibles."
    
    <br>
 
