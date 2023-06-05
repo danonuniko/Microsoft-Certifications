@@ -115,6 +115,20 @@
    - Migrar a la nube, pero realizar el seguimiento del uso estrechamente mediante etiquetas para comprender rápidamente los costos.
 
    "La calculadora de costo total de propiedad permite introducir la infraestructura y los requisitos actuales, y proporciona una estimación para la ejecución en la nube."
+
+<b>21. ¿Cuántos parámetros necesita un artefacto de Azure Blueprints para ser válido?</b>
+   - 0.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - 1.
+   - 2.
+
+   "Es posible que los artefactos no tengan parámetros adicionales. Un ejemplo es la directiva Implementar la detección de amenazas en servidores SQL Server, que no requiere ninguna configuración adicional."
+
+<b>22. ¿Cómo puede impedir que se creen recursos no compatibles, sin tener que evaluar manualmente cada recurso a medida que se crea?</b>
+   - Azure Policy.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Blueprint.
+   - Azure Resource Monitor.
+
+   "Azure Policy le permite crear directivas e iniciativas (grupos de directivas) que impiden la creación de recursos no compatibles."
    
    <br>
 
