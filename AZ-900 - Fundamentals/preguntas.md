@@ -101,6 +101,20 @@
    - Lectura y escritura.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
    "El control de acceso basado en rol, mediante un modelo de permisos, concede todos los permisos asignados en todos los roles asignados."
+
+<b>19. ¿Qué característica de Azure puede ayudar a mantener la organización y a realizar el seguimiento del uso en función de los metadatos asociados a los recursos?</b>
+   - Etiquetas.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Seguimientos.
+   - Valores.
+
+   "Las etiquetas permiten asociar metadatos a un recurso para ayudar a realizar el seguimiento de la administración de recursos, los costos y la optimización, la seguridad, etc."
+
+<b>20. ¿Cuál es el mejor método para calcular el costo de la migración a la nube mientras se incurre en costos mínimos?</b>
+   - Migrar una pequeña muestra a la nube y realizar el seguimiento de los costos en el tiempo.
+   - Usar la calculadora de costo total de propiedad para calcular los costos esperados.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Migrar a la nube, pero realizar el seguimiento del uso estrechamente mediante etiquetas para comprender rápidamente los costos.
+
+   "La calculadora de costo total de propiedad permite introducir la infraestructura y los requisitos actuales, y proporciona una estimación para la ejecución en la nube."
    
    <br>
 
