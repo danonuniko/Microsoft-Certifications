@@ -143,6 +143,20 @@
    - Azure Monitor y Azure Arc.
 
    "Azure Blueprints aplica directivas de forma automatizadas y las plantillas de ARM le permiten implementar el recurso como código. El uso conjunto de los dos ayuda a garantizar que se implementen recursos coherentes y compatibles."
+
+<b>25. ¿Cuál no es una de las categorías de recomendación de Azure Advisor?</b>
+   - Confiabilidad.
+   - Capacity.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Coste.
+
+   "Las cinco categorías de recomendación de Azure Advisor son: Confiabilidad, Seguridad, Rendimiento, Excelencia operativa y Costo."
+
+<b>26. Recibirá una notificación por correo electrónico de que las máquinas virtuales (VM) de una región de Azure donde tiene máquinas virtuales implementadas están experimentando una interrupción. ¿Qué componente de Azure Service Health le indicará si la aplicación se ha visto afectada?</b>
+   - Estado de Azure.
+   - Estado del servicio.
+   - Estado de los recursos.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Resource Health es una vista personalizada de los recursos reales de Azure. Proporciona información sobre el estado de los recursos en la nube individuales."
    
    <br>
 
