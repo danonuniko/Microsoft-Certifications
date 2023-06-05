@@ -1304,3 +1304,44 @@ An example of _________ is automatically scaling an application to ensure that t
    - Azure Repos.
 
    "By using ARM templates, you can describe the resources you want to use in a declarative JSON format."
+
+<b>94. You have a team of Linux administrators that need to manage the resources in Azure. The team wants to use the Bash shell to perform the administration. What should you recommend?</b>
+   - Azure Blueprint.
+   - Azure CLI.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Powershell.
+   - Azure Resource Manager (ARM) template.
+
+   "Azure CLI allows you to use the Bash shell to perform administrative tasks. Bash is used in Linux environments, so a Linux administrator will probably be more comfortable performing command-line administration for Azure CLI."
+
+<b>95. Select the answer that correctly completes the sentence:
+
+In cloud computing, _________ allows you to deploy applications to regional datacenters around the world.</b>
+   - High availability.
+   - Disaster recovery.
+   - Geo-location.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Elasticity.
+
+   "You can deploy apps and data to regional datacenters around the globe, thereby ensuring that your customerrs always have the best performance in their region. This is referred to as geo-distribution."
+
+<b>96. In which cloud service model is the customer responsible for managing the operating system?</b>
+   - Infrastructure as a service (IaaS).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Platform as a service (PaaS).
+   - Software as a service (SaaS).
+
+   "IaaS consists of virtual machines and networking provided by the cloud provider. The customer is responsible for the OS and applications. The cloud provider is responsible for the OS in PaaS and SaaS."
+
+<b>97. For which resource does Azure generate separate billing reports and invoices by default?</b>
+   - Management groups.
+   - Resource groups.
+   - Subscriptions.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Accounts.
+
+   "Azure generates separate billing reports and invoices for each subscription so that you can organize and manage costs. Resource groups can be used to group costs, but you will not receive a separate invoice for each resource group. Management groups are used to efficiently manage access, policies and compliance for subscriptions. You can set up billing profiles to roll up subscriptions into invoice sections, but this requires customization."
+
+<b>98. Which Azure compute service can you use to deploy and manage a set of identical virtual machines?</b>
+   - Availability sets.
+   - Availability zones.
+   - Azure Container Instances.
+   - Azure Virtual Machine Scale Sets.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+   "Virtual Machine Scale Sets are an Azure compute resource that you can use to deploy and manage and scale a set of identical virtual machines."
