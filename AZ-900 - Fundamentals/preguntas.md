@@ -580,7 +580,7 @@ Increasing compute capacity for an app by adding RAM or CPUs to a virtual machin
    - Azure Advisor.
    - Azure Cost Management.
 
-   "The Azure Pricing calculator allows you to estimate and configure according to your specific requirements. You will then receive a consolidated estimated price and a detailed breakdown of the costs associated with each resource you added to you solution."
+   "The Azure Pricing calculator allows you to estimate and configure according to your specific requirements. You will then receive a consolidated estimated price and a detailed breakdown of the costs associated with each resource you added to your solution."
 
 <b>8. Which two actions can be performed by using the graphical user interface (GUI) in the Azure portal? Each correct answer presents a complete solution.</b>
    - Create new resources.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -1252,3 +1252,27 @@ An example of _________ is automatically scaling an application to ensure that t
    - Azure Sphere.
 
    "ARM is the deployment and management service for Azure. It provides a management layer that enables you to create, update and delete resources in an Azure account."
+
+<b>91. Which two features are available by using Azure Cost Management + Billing?</b>
+   - Create and manage budgets.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Generate historical reports and forecast future usage.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Provide discounted prices when you pay in advance.
+   - Estimate the total cost of ownership before resources are deployed.
+
+   "Azure Cost Management allows you to create and manage cost and usage budgets by monitoring resource demand trends, consumption rates and cost patterns. It also allows you to use historical data to generate reports and forecast future usage and expenditures."
+
+<b>92. What is the customer responsible for in a software as a service (SaaS) model?</b>
+   - storage.
+   - data and access.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - virtual machines.
+   - runtime.
+
+   "SaaS allows you to pay to use an existing application on hardware managed by a third party. You supply data and configure access. Customers are only responsible for storage in a private cloud. Customers are responsible for virtual machines and runtime in IaaS and the private cloud."
+
+<b>93. What can you use to define the resources you want to provision in a declarative JSON format?</b>
+   - Azure PowerShell.
+   - Acure CLI.
+   - Azure Resource Manager (ARM) templates.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - Azure Repos.
+
+   "By using ARM templates, you can describe the resources you want to use in a declarative JSON format."
