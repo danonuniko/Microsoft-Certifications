@@ -117,7 +117,7 @@
    "La calculadora de costo total de propiedad permite introducir la infraestructura y los requisitos actuales, y proporciona una estimación para la ejecución en la nube."
 
 <b>21. ¿Cuántos parámetros necesita un artefacto de Azure Blueprints para ser válido?</b>
-   - 0.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+   - <label>0.</label>   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
    - <label>1.</label>
    - <label>2.</label>
 
