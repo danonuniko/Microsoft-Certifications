@@ -118,8 +118,8 @@
 
 <b>21. ¿Cuántos parámetros necesita un artefacto de Azure Blueprints para ser válido?</b>
    - 0.   &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
-   - 1.
-   - 2.
+   - <label>1.</label>
+   - <label>2.</label>
 
    "Es posible que los artefactos no tengan parámetros adicionales. Un ejemplo es la directiva Implementar la detección de amenazas en servidores SQL Server, que no requiere ninguna configuración adicional."
 
