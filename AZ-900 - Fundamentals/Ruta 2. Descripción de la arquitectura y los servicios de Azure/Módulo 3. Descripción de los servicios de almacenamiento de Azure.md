@@ -42,14 +42,14 @@ Los datos de una cuenta de Azure Storage siempre se replican tres veces en la re
 ##### Almacenamiento con redundancia local
 El almacenamiento con redundancia local (LRS) replica los datos tres veces dentro de un único centro de datos en la región primaria. LRS ofrece una durabilidad mínima de 11 nueves (99,999999999 %) de los objetos en un año determinado.
 
-![almacenamiento de redundancia local](./../../images/locally-redundant-storage.png)
+![almacenamiento de redundancia local](./../images/locally-redundant-storage.png)
 
 LRS es la opción de redundancia de costo más bajo y ofrece la menor durabilidad en comparación con otras opciones. LRS protege los datos frente a errores en la estantería de servidores y en la unidad. No obstante, si se produce un desastre como un incendio o una inundación en el centro de datos, es posible que todas las réplicas de una cuenta de almacenamiento con LRS se pierdan o no se puedan recuperar. Para mitigar este riesgo, Microsoft recomienda el uso del almacenamiento con redundancia de zona (ZRS), el almacenamiento con redundancia geográfica (GRS) o el almacenamiento con redundancia de zona geográfica (GZRS).
 
 ##### Almacenamiento con redundancia de zona
 Para las regiones con zona de disponibilidad habilitada, el almacenamiento con redundancia de zona (ZRS) replica los datos de Azure Storage sincrónicamente en tres zonas de disponibilidad de Azure en la región primaria. ZRS proporciona a los objetos de datos de Azure Storage una durabilidad de al menos 12 nueves (99,9999999999 %) durante un año determinado.
 
-![almacenamiento con redundancia de zona](../../images/zone-redundant-storage.png)
+![almacenamiento con redundancia de zona](./../images/zone-redundant-storage.png)
 
 Con ZRS, los datos son accesibles para las operaciones de escritura y lectura incluso si una zona deja de estar disponible. No es necesario volver a montar los recursos compartidos de archivos de Azure de los clientes conectados. Si alguna zona deja de estar disponible, Azure realiza las actualizaciones de la red, como el redireccionamiento de DNS. Estas actualizaciones pueden afectar a la aplicación si se accede a los datos antes de que se completen dichas actualizaciones.
 
@@ -68,12 +68,12 @@ Importante: Dado que los datos se replican en la región secundaria de forma asi
 ##### Almacenamiento con redundancia geográfica
 GRS copia los datos de manera sincrónica tres veces dentro de una ubicación física única en la región primaria mediante LRS. Luego copia los datos de forma asincrónica en una única ubicación física en la región secundaria (el par de regiones) mediante LRS. GRS proporciona a los objetos de datos de Azure Storage una durabilidad de al menos 16 nueves (99,99999999999999 %) durante un año determinado.
 
-![almacenamiento redundancia geográfica](../../images/geo-redundant-storage.png)
+![almacenamiento redundancia geográfica](./../images/geo-redundant-storage.png)
 
 ##### Almacenamiento con redundancia de zona geográfica
 GZRS combina la alta disponibilidad que proporciona la redundancia entre zonas de disponibilidad con la protección frente a interrupciones regionales que proporciona la replicación geográfica. Los datos de una cuenta de almacenamiento de GZRS se almacenan en tres zonas de disponibilidad de Azure en la región primaria (de manera similar a ZRS) y también se replican en una región geográfica secundaria para protegerlos frente a desastres regionales. Microsoft recomienda el uso de GZRS en aplicaciones que requieran de coherencia, durabilidad y disponibilidad máximas, además de rendimiento excelente y resistencia para la recuperación ante desastres.
 
-![almacenamiento con redundancia de zona geografica](../../images/geo-zone-redundant-storage.png)
+![almacenamiento con redundancia de zona geografica](./../images/geo-zone-redundant-storage.png)
 
 GZRS está diseñado para proporcionar una durabilidad mínima de 16 nueves (99,99999999999999 %) de los objetos en un año determinado.
 

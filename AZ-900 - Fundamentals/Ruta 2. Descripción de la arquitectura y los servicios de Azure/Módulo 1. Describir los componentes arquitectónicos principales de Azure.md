@@ -23,7 +23,7 @@ Muchos equipos comienzan a explorar la nube mediante la migración de sus aplica
 
 Para crear y usar los servicios de Azure, necesita una suscripción de Azure. Después de crear una cuenta de Azure, puedes crear suscripciones adicionales. Por ejemplo, es posible que la empresa use una única cuenta de Azure para el negocio y suscripciones independientes para los departamentos de desarrollo, marketing y ventas.
 
-![Diagrama en el que se muestran los diferentes niveles del ámbito de la cuenta](./../../images/Azure-Tipos-Suscripciones.png)
+![Diagrama en el que se muestran los diferentes niveles del ámbito de la cuenta](./../images/Azure-Tipos-Suscripciones.png)
 
 #### Exploración del espacio aislado de Learn
 
@@ -49,7 +49,7 @@ Una región es un área geográfica del planeta que contiene al menos un centro 
 
 Las zonas de disponibilidad son centros de datos separados físicamente dentro de una región de Azure. Cada zona de disponibilidad consta de uno o varios centros de datos equipados con alimentación, refrigeración y redes independientes. Una zona de disponibilidad se configura para constituir un límite de aislamiento. Si una zona deja de funcionar, la otra continúa trabajando. Las zonas de disponibilidad están conectadas a través de redes de fibra óptica de alta velocidad privadas.
 
-![availability zones](./../../images/availability-zones.png)
+![availability zones](./../images/availability-zones.png)
 
 Importante: Para garantizar la resistencia, se configuran un mínimo de tres zonas de disponibilidad independientes en todas las regiones habilitadas. Pero no todas las regiones de Azure admiten actualmente las zonas de disponibilidad.
 
@@ -72,7 +72,7 @@ Importante: No todos los servicios de Azure replican automáticamente los datos 
 
 Algunos pares de regiones de ejemplo en Azure son Oeste de EE. UU. y Este de EE. UU., y Sudeste Asiático y Asia Pacífico. Como las dos regiones están directamente conectadas y lo suficientemente lejos como para estar aisladas contra desastres regionales, puede usarlas para proporcionar redundancia de datos y servicios de confianza.
 
-![pares de regiones](./../../images/region-pairs.png)
+![pares de regiones](./../images/region-pairs.png)
 
 <b>Ventajas adicionales de los pares de región:</b>
 
@@ -101,7 +101,7 @@ Un recurso es el bloque de creación básico de Azure. Todo lo que cree, aprovis
 
 Los grupos de recursos son simplemente agrupaciones de recursos. Al crear un recurso, es necesario colocarlo en un grupo de recursos. Aunque un grupo de recursos puede contener muchos recursos, un único recurso solo puede estar en un grupo de recursos a la vez. Es posible que algunos recursos se muevan entre grupos de recursos, pero al mover un recurso a un nuevo grupo, ya no estará asociado al grupo anterior. Además, los grupos de recursos no se pueden anidar, lo que significa que no se puede colocar el grupo de recursos B dentro del grupo de recursos A.
 
-![grupo de recursos](./../../images/resource-group.png)
+![grupo de recursos](./../images/resource-group.png)
 
 Los grupos de recursos proporcionan una manera cómoda de agrupar recursos. Al aplicar una acción a un grupo de recursos, se aplicará a todos los recursos que contiene. Si elimina un grupo de recursos, se eliminarán todos los recursos que contiene. Si concede o deniega el acceso a un grupo de recursos, habrá concedido o denegado acceso a todos los recursos que contiene.
 
@@ -109,7 +109,7 @@ Los grupos de recursos proporcionan una manera cómoda de agrupar recursos. Al a
 
 En Azure, las suscripciones son una unidad de administración, facturación y escala. Al igual que los grupos de recursos son una manera de organizar lógicamente los recursos, las suscripciones permiten organizar lógicamente los grupos de recursos y facilitar la facturación.
 
-![suscripciones](./../../images/subscriptions.png)
+![suscripciones](./../images/subscriptions.png)
 
 * El uso de Azure requiere una suscripción de Azure. Una suscripción le proporciona acceso autenticado y autorizado a los servicios y productos de Azure. Además, también le permite aprovisionar los recursos. Una suscripción de Azure se vincula a una cuenta de Azure, que es una identidad en Azure Active Directory (Azure AD) o en un directorio en el que Azure AD confía.
 
@@ -133,7 +133,7 @@ La última pieza es el grupo de administración. Los recursos se recopilan en gr
 
 Puede compilar una estructura flexible de grupos de administración y suscripciones para organizar los recursos en una jerarquía para una administración unificada de las directivas y el acceso. El diagrama siguiente muestra un ejemplo de creación de una jerarquía para la gobernanza mediante grupos de administración.
 
-![organización grupos de suscripción](./../../images/management-groups-subscriptions.png)
+![organización grupos de suscripción](./../images/management-groups-subscriptions.png)
 
 Algunos ejemplos de cómo podría usar los grupos de administración podrían ser los siguientes:
 

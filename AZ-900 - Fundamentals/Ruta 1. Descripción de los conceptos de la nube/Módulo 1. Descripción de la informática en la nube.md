@@ -15,7 +15,7 @@ Cada proveedor de nube tiene sus propios servicios, pero los servicios básicos 
 El modelo de responsabilidad compartida está muy vinculado a los tipos de servicio en la nube: infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS).  
 IaaS sitúa la mayor responsabilidad en el consumidor y el proveedor de servicios en la nube es el responsable de los conceptos básicos de seguridad física, energía y conectividad. En el extremo opuesto, SaaS sitúa la mayor parte de la responsabilidad en el proveedor de servicios en la nube.
 <br><br>
-![texto](./../../images/Azure-Shared-Responsibility-Model.png)
+![Azure shared responsibility model](./../images/Azure-Shared-Responsibility-Model.png)
 
 Siempre será responsabilidad suya lo siguiente:
 
