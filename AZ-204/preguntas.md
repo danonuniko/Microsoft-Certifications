@@ -92,16 +92,27 @@ Which two of the following parameters must be used in conjunction to meet the re
 - EnabledForTemplateDeployment.
 - EnableSoftDelete.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
-<b>13. </b>
+<b>13. You have an Azure Active Directory (Azure AD) tenant. You want to implement multi-factor authentication by making use of a conditional access policy. The conditional access policy must be applied to all users when they access the Azure portal. Which three settings should you configure?</b>
 
-<b>14. You manage an Azure SQL database that allows for Azure AD authentication.
-You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Active Directory account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum. Which of the following should you implement?</b>
+![question 13](./images/question-13.jpg)
+![question 13 solution](./images/question-13-solution.jpg)
+
+"The conditional access policy must be applied or assigned to Users and Groups.  
+The conditional access policy must be applied when users access the Azure portal, which is a cloud app. That is: Microsoft Azure Management.  
+Access control must require multi-factor authentication when granting access."
+
+<b>14. You manage an Azure SQL database that allows for Azure AD authentication. You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Active Directory account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum. Which of the following should you implement?</b>
 - Azure AD token.
 - Azure Multi-Factor authentication.
 - Active Directory integrated authentication.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - OATH software tokens.
 
-TERMINAR PREGUNTA.
+"Azure AD can be the initial Azure AD managed domain. Azure AD can also be an on-premises Active Directory Domain Services that is federated with the Azure AD. Using an Azure AD identity to connect using SSMS or SSDT. The following procedures show you how to connect to a SQL database with an Azure AD identity using SQL Server Management Studio or SQL Server Database. Use this method if you are logged in to Windows using your Azure Active Directory credentials from a federated domain. 
+1. Start Management Studio or Data Tools and in the Connect to Server (or Connect to Database Engine) dialog box, in the Authentication box, select Active.  
+
+<span style="display:block;text-align:center;">![question 14](images/question-14.jpg)</span>
+
+2. Select the Options button, and on the Connection Properties page, in the Connect to database box, type the name of the user database you want to connect to (The AD domain name or tenant ID option is only supported for Universal with MFA connection options, otherwise it is greyed out)."
 
 <b>15. You are developing an application to transfer data between on-premises file servers and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault and makes use of the Azure Key Vault APIs. You want to configure the application to allow recovery of an accidental deletion of the key vault or key vault objects for 90 days after deletion. What should you do?</b>
 - Run the Add-AzKeyVaultKey cmdlet.
