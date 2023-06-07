@@ -1,4 +1,4 @@
-<h2 align="center"><ins>PREGUNTAS AZ-204 RUTAS MICROSOFT LEARN</ins></h2><br>b
+<h2 align="center"><ins>PREGUNTAS AZ-204 RUTAS MICROSOFT LEARN</ins></h2><br>
 
 <b>1. ¿Cuál de las siguientes categorías de plan de App Service proporciona las capacidades máximas de escalabilidad horizontal?</b>
 - Proceso dedicado.
@@ -13,6 +13,18 @@
 - Puntos de conexión del servicio.
 
 "Las conexiones híbridas son una característica de red saliente."
+
+<b>3. ¿En cuál de las siguientes categorías de configuración de la aplicación establecería el idioma y la versión del SDK?</b>
+- Configuración de la aplicación. **ERROR AL CONTESTAR:** Esta categoría se una para configurar opciones que pasan a la aplicación en el entorno de ejecución.
+- Asignaciones de ruta de acceso.
+- Configuración general.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"La categoría de configuración general se usa para configurar las opciones de pila, la plataforma, la depuración y el certificado de cliente entrante."
+
+<b>4. ¿Cuál de los siguientes tipos de registro de aplicaciones se admite en la plataforma Linux?</b>
+- Registro del servidor web.
+- Seguimiento de solicitudes con error.
+- Registro de implementación.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
 
