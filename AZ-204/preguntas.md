@@ -1,3 +1,5 @@
+<h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
+
 <b>1. You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2. What should you do?</b>
 - From the Update management blade, click Enable.
 - From the Overwiew blade, move VM1 to a different subscription.
@@ -122,4 +124,77 @@ Access control must require multi-factor authentication when granting access."
 
 "When soft-delete is enabled, resources marked as deleted resources are retained for a specified period (90 days by default). The service further provides a mechanism for recovering the deleted object, essentially undoing the deletion. Purge protection is an optional Key Vault behavior and is not enabled by default. Purge protection can only be enabled once soft-delete is enabled. When purge protection is on, a vault or an object in the deleted state cannot be purged until the retention period has passed. Soft-deleted vaults and objects can still be recovered, ensuring that the retention policy will be followed. The default retention period is 90 days, but it is possible to set the retention policy interval to a value from 7 to 90 days through the Azure portal. Once the retention policy interval is set and saved it cannot be changed for that vault."
 
-<b>16. </b>
+<b>16. You have developed a Web App for your company. The Web App provides services and must run in multiple regions. You want to be notified whenever the Web App uses more than 85 percent of the available CPU cores over a 5 minute perior. Your solution must minimize costs. Which command should you use?</b>
+
+![question 16](./images/question-16.jpg)
+![question 16 solution](./images/question-16-solution.jpg)
+
+<b>17. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user.  
+Solution: You include the use of Azure Redis Cache in your design. Does the solution meet the goal?</b>
+- Yes.
+- No.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+<b>18. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user.  
+Solution: You include the use of an Azure Content Delivery Network (CDN) in your design. Does the solution meet the goal?</b>
+- Yes.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- No.
+
+<b>19. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user.  
+Solution: You include the use of a Storage Area Network (SAN) in your design. Does the solution meet the goal?</b>
+- Yes.
+- No.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+<b>20. You develop a Web App on a tier D1 app service plan. You notice that page load times increase during periods of peak traffic. You want to implement automatic scaling when CPU load is above 80 percent. Your solution must minimize costs. What should you do first?</b>
+- Enable autoscaling on the Web App.
+- Switch to the Premium App Service tier plan.
+- Switch to the Standard App Service tier plan.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Switch to the Azure App Services consumption plan.
+
+"Configure the web App to the Standard App Service Tier. The Standard tier supports auto-scaling, and we should minimize the costs. We can then enable autoscaling on the web app, add a scale rule and add a Scale condition."
+
+<b>21. Your company's Azure subscription includes an Azure Log Analytics workspace. Your company has a hundred on-premises servers that run either Windows Server 2012 R2 or Windows Server 2016, and is linked to the Azure Log Analytics workspace. The Azure Log Analytics workspace is set uo to gather performance counters associated with security from these linked servers. You must configure alerts based on the information gathered by the Azure Log Analytics workspace. You have to make sure that alert rules allow for dimensions, and that alert creation time should be kept to a minimum. Furthermore, a single alert notification must be created when the alert is created and when the alert is resolved. You need to make use of the necessary signal type when creating the alert rules. Which of the following is the option you should use?</b>
+- The Activity log signal type.
+- The Application Log signal type.
+- The Metric signal type.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- The Audit Log signal type.
+
+"Metric alerts in Azure Monitor provide a way to get notified when one of your metrics cross a threshold. Metric alerts work on a range of multidimensional platform metrics, Application Insights standard and custom metrics. Note: Signals are emitted by the target resource and can be of several types. Metric, Activity log, Application Insights and Log."
+
+<b>22. Your are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation. You want the application to allow customers to search the index by using regular expressions. What should you do?</b>
+- Configure the SearchMode property of the SeachParameters class.
+- Configure the QueryType property of the SearchParameters class.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Configure the Facets property of the SearchParameters class.
+- Configure the Filter property of the SearchParamenters class.
+
+"The SearchParameters QueryType Property gets or sets a value that specifies the syntax of the search query. The default is 'simple'. Use 'full' if your query uses the Lucene query syntax. You can write queries against Azure Search based on the rich Lucene Query Parser syntax for specialized query forms: wildcard, fuzzy search, proximity search, regular expressions are a few examples."
+
+<b>23. You are a developer at your company. You need to update the definitions for an existing Logic App. What should you use?</b>
+- The Enterprise Integration Pack (EIP).
+- The Logic App Code View.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- The API Connections.
+- The Logic Apps Designer.
+
+"Edit JSON Azure Portal:  
+1. Sign in to the Azure Portal.  
+2. From the left menu, choose All services. In the search box, find "logic apps", and then from the results, select you logic app.  
+3. On your logic app's menu, under Development Tools, select Logic App Code View.  
+4. The Code View editor opens and shows your logic app definition in JSON format."
+
+<b>24. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance.  
+Solution: You configure Basic gateway credentials for the Azure resource. Does the solution meet the goal?</b>
+- Yes.
+- No.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"API Management allows to secure access to the back-end service of an API using client certificates."
+
+<b>25. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance.  
+Solution: You configure Client cert gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?</b>
+- Yes.
+- No.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b></b>
+
+"The API back end is hosted in an Azure App Service instance. It is an Azure resource and not an HTTP(s) endpoint."
