@@ -1,4 +1,20 @@
-<h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
+<h2 align="center"><ins>PREGUNTAS AZ-204 RUTAS MICROSOFT LEARN</ins></h2><br>b
+
+<b>1. ¿Cuál de las siguientes categorías de plan de App Service proporciona las capacidades máximas de escalabilidad horizontal?</b>
+- Proceso dedicado.
+- Aislado.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Proceso compartido.
+
+"La categoría Aislado proporciona aislamiento de red y proceso, y tiene la capacidad máxima de escalabilidad horizontal."
+
+<b>¿Cuál de las siguientes características de red de App Service puede usarse para controlar el tráfico de red saliente?</b>
+- Dirección asignada a las aplicaciones.
+- Conexiones híbridas.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Puntos de conexión del servicio.
+
+"Las conexiones híbridas son una característica de red saliente."
+
+<br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
 
 <b>1. You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2. What should you do?</b>
 - From the Update management blade, click Enable.
@@ -198,3 +214,24 @@ Solution: You configure Client cert gateway credentials for the HTTP(s) endpoint
 - No.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b></b>
 
 "The API back end is hosted in an Azure App Service instance. It is an Azure resource and not an HTTP(s) endpoint."
+
+<b>26. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance.  
+Solution: You configure Basic gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?</b>
+- Yes.
+- No.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b></b>
+
+"API Management allows to secure access to the back-end service of an API using client certificates. Furthermore, the API back end is hosted in an Azure App Service instance. It is an Azure resource and not an HTTP(s) endpoint."
+
+<b>27. The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements:  
+You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance.  
+Solution: You configure Client cert gateway credentials for the Azure resource. Does the solution meet the goal?</b>
+- Yes.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b></b>
+- No.
+
+"API Management allows to secure access to the back-end service of an API using client certificates."
+
+<b>28. </b>
+<b></b>
+<b></b>
+<b></b>
