@@ -40,6 +40,18 @@
 
 "Los cambios en la carga de la aplicación que son predecibles son buenos candidatos para el escalado automático."
 
+<b>7. De forma predeterminada todas las solicitudes que realiza el cliente a la direción URL de producción de la aplicación (http://<app_name>.azurewebsites.net) se enrutan al espacio de producción. Se puede enrutar automáticamente parte del tráfico a otra ranura. ¿Cuál es la regla de enrutamiento predeterminada que se aplica a las nuevas ranuras de implementación?</b>
+- 0%.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- 10%.
+- 20%.
+
+"De forma predeterminada, a las ranuras nuevas se les da una regla de enrutamiento de 0%."
+
+<b>8. Algunos elementos de configuración siguen al contenido en los intercambios (no son específicos de la ranura), mientras que otros permanecen en la misma ranura después de este (específicos). ¿Cuáles de los siguientes valores se intercambian?</b>
+- Extremos de publicación.
+- Contenido de WebJobs.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Programadores de WebJobs.
+
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
 <h3 align="center"><ins>QUESTION SET 1</h3>
 
