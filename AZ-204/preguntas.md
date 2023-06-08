@@ -26,7 +26,22 @@
 - Seguimiento de solicitudes con error.
 - Registro de implementación.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
+<b>5. ¿Cuál de estas afirmaciones describe mejor el escalado automático?</b>
+- El escalado automático requiere la supervisión activa de la carga de trabajo de un sistema por parte de un administrador.
+- El escalado automático es una solución para escalar y reducir horizontalmente.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- El escalado vertical y la reducción vertical proporcionan una mejor disponibilidad que el escalado automático.
+
+"El sistema puede escalar horizontalmente cuando las métricas de recursos especificadas indican un aumento del uso y reducir horizontalmente cuando estas métricas disminuyan."
+
+<b>6. ¿Cuál de estos escenarios sería adecuado para el escalado automático?</b>
+- El número de usuarios que requieren acceso a una aplicación varía según una programación periódica. Por ejemplo, más usuarios usan el sistema los viernes que otros días de la semana.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- El sistema está sujeto a un flujo repentino de solicitudes que hace que el sistema se detenga.
+- Su organización ofrece una promoción y espera ver un aumento del tráfico en el sitio web durante las próximas dos semanas.
+
+"Los cambios en la carga de la aplicación que son predecibles son buenos candidatos para el escalado automático."
+
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
+<h3 align="center"><ins>QUESTION SET 1</h3>
 
 <b>1. You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2. What should you do?</b>
 - From the Update management blade, click Enable.
@@ -34,7 +49,7 @@
 - From the Redeploy blade, click Redeploy.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - From the Profile blade, modify the usage location.
 
-"When you redeploy a VM, it moves the VM to a new node within the Azure infrastructure and the powers it back on, retaining all your configuration options and associated resources."
+"When you redeploy a VM, it moves the VM to a new node within the Azure infrastructure and the powers it back on, retaining all your configuration options and associated resources."SET 1
 
 <b>2. You have downloaded an Azure Resource Manager template to deploy numerous virtual machines. The template is based on a current virtual machine, but must be adapted to reference an administrative password. You need to make sure that the password is not stored in plain text. You are preparing to create the necessary components to achieve your goal. Which of the following should you create to achieve you goal?</b>
 - An Azure Key Vault.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
@@ -344,13 +359,37 @@ You need to configure Azure Container Instances for the application. Which confi
 ![question 37](images/question-37.jpg)
 ![question 37 solution](images/question-37-solution.jpg)
 
-<b>38. You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises
-SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service.
+<h3 align="center"><ins>QUESTION SET 2</h3>
+
+<b>1. You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service.
 - Each instance of the WebJob processes data for a single customer and must run as a singleton instance.
 - Each deployment must be tested by using deployment slots prior to serving production data.
 - Azure costs must be minimized.
 - Azure resources must be located in an isolated network.  
 You need to configure the App Service plan for the Web App. How should you configure the App Service plan? </b>
 
-![question 38](images/question-38.jpg)
-![question 38 solution](images/question-38-solution.jpg)
+![question 2-1](images/question-2-1.jpg)
+![question 2-1 solution](images/question-2-1-solution.jpg)
+
+"Number of VM instances: 4 - You are not charged extra for deployment slots.  
+Pricing tier: Isolated - The App Service Environment (ASE) is a powerful feature offering of the Azure App Service that gives network isolation and improved scale capabilities. Ti is essentially a deployment of the Azure App Service into a subnet of a customer's Azure Virtual Network (VNet)."
+
+<b>2. You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure Function app that is triggered by an Azure Storage queue. You are preparing to migrate the Azure Function to Kubernetes using Kubernetes-based Event Driven Autoscaling (KEDA). You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
+Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more
+than once, or not at all.</b>
+
+![question 2-2](images/question-2-2.jpg)
+![question 2-2 solution](images/question-2-2-solution.jpg)
+
+<b>3. You are creating a CLI script that creates an Azure web app and related services in Azure App Service. The web app uses the following variables:
+- $gitrpo = https://github.com/Contos/webapp
+- $webappname = Webapp1103  
+You need to automatically deploy code from GitHub to the newly created web app. How should you complete the script?</b>
+
+![question 2-3](images/question-2-3.jpg)
+![question 2-3 solution](images/question-2-3-solution.jpg)
+
+"Box 1: az appservice plan create - The azure group creates command successfully returns JSON result. Now we can use resource group to create app service plan.  
+Box 2: az webapp create.  
+Box 3: --plan $webappname - with the serviceplan we created in step 1.  
+Box 4: az webapp deployment - Continuous delivery with GitHub."
