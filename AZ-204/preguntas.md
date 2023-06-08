@@ -7,7 +7,7 @@
 
 "La categoría Aislado proporciona aislamiento de red y proceso, y tiene la capacidad máxima de escalabilidad horizontal."
 
-<b>¿Cuál de las siguientes características de red de App Service puede usarse para controlar el tráfico de red saliente?</b>
+<b>2. ¿Cuál de las siguientes características de red de App Service puede usarse para controlar el tráfico de red saliente?</b>
 - Dirección asignada a las aplicaciones.
 - Conexiones híbridas.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - Puntos de conexión del servicio.
@@ -243,7 +243,114 @@ Solution: You configure Client cert gateway credentials for the Azure resource. 
 
 "API Management allows to secure access to the back-end service of an API using client certificates."
 
-<b>28. </b>
-<b></b>
-<b></b>
-<b></b>
+<b>28. You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation venues. You want the application to list holiday accommodation venues that fall within a specific price range and are within a specified distance to an airport. What should you do?</b>
+- Configure the SearchMode property of the SearchParameters class.
+- Configure the QueryType property of the SearchParameters class.
+- Configure the Facets property of the SearchParameters class.
+- Configure the Filter property of the SearchParameters class.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b></b>
+
+"The Filter property gets or sets the OData $filter expression to apply to the search query."
+
+<b>29. You are a developer at your company. You need to edit the workflows for an existing Logic App. What should you use?</b>
+- The Enterprise Integration Pack (EIP).  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b></b>
+- The Logic App Code View.
+- The API Connections.
+- The Logic Apps Designer.
+
+"For business-to-business (B2B) solutions and seamless communication between organizations, you can build automated scalable enterprise integration workflows by using the Enterprise Integration Pack (EIP) with Azure Logic App."
+
+<b>30. You are a developer for a company that provides a bookings management service in the tourism industry. You are implementing Azure Search for the tour agencies listed in your company's solution. You create the index in Azure Search. You now need to use the Azure Search .NET SDK to import the relevant data into the Azure Search service. Which three actions should you perform in sequence?</b>
+- Create a DataSource instance and set its Container property to the DataContainer.
+- Create an IndexBatch that contains the documents which must be added.  &emsp; &emsp; &emsp; &emsp; <b>STEP 2</b></b>
+- Set the DataSources property of the SearchServiceClient.
+- Create a SearchIndexClient object to connect to the search index. &emsp; &emsp; &emsp; &emsp; <b>STEP 1</b></b>
+- Call the Documents.Index method of the SearchIndexClient and pass the IndexBatch. &emsp; &emsp; &emsp; &emsp; <b>STEP 3</b></b>
+- Call the Documents.Seggest method of the SearchIndexClient and pass the DataSource.
+
+"1. The index needs to be populated. To do this, we will need a SearchIndexClient. Thre are to ways to obtain one: by constructing it, or by calling Indexex.GetClient on the SearchServiceClient. Here we will use the first method.  
+2. Create the indexBatch with the documents.  
+Something like:  
+var hotels = new Hotel[];  
+{  
+new Hotel()  
+{  
+HotelId = "3",  
+BaseRate = 129.99,  
+Description = "Close to town hall and the river"  
+}  
+};  
+var batch = IndexBatch.Upload(hotels);  
+3. The next step is to populate the newly-created index  
+Example:  
+var batch = IndexBatch.Upload(hotels);  
+try  
+{  
+indexClient.Documents.Index(batch);  
+}  
+
+<b>31. You are developing an application that applies a set of governance policies for internal and external services, as well as for applications. You develop a stateful ASP.NET Core 2.1 web application named PolicyApp and deploy it to an Azure App Service Web App. The PolicyApp reacts to events from Azure Event Grid and performs policy actions based on those events. You have the following requirements:
+- Authentication events must be used to monitor users when they sign in and sign out.
+- All authentication events must be processed by PolicyApp.
+- Sign outs must be processed as fast as possible.  
+What should you do?</b>
+- Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
+- Create a separate Azure Event Grid handler for sign-in and sign-out events.
+- Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events.
+- Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
+
+<b>32. You are developing a C++ application that compiles to a native application named process.exe. The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG. You must deploy the application as an Azure Function. You need to configure the function and host json files. How should you complete the json files?</b>
+
+![question 32](images/question-32.jpg)
+![question 32 solution](images/question-32-solution.jpg)
+
+<b>33. You are developing an Azure Static Web app that contains training materials for a tool company. Each tool’s training material is contained in a static web page that is linked from the tool’s publicly available description page. A user must be authenticated using Azure AD prior to viewing training. You need to ensure that the user can view training material pages after authentication. How should you complete the configuration file?</b>
+
+![question 33](images/question-33.jpg)
+![question 33 solution](images/question-33-solution.jpg)
+
+<b>34. You are authoring a set of nested Azure Resource Manager templates to deploy Azure resources. You author an Azure Resource Manager template named mainTemplate.json that contains the following linked templates: linkedTemplate1.json, linkedTemplate2.json. You add parameters to a parameters template file named mainTemplate.parameters.json. You save all templates on a local device in the C:\templates\ folder.  
+You have the following requirements:
+- Store the templates in Azure for later deployment.
+- Enable versioning of the templates.
+- Manage access to the templates by using Azure RBAC.
+- Ensure that users have read-only access to the templates.
+- Allow users to deploy the templates.  
+You need to store the templates in Azure. How should you complete the command? </b>
+
+![question 34](images/question-34.jpg)
+![question 34 solution](images/question-34-solution.jpg)
+
+<b>35. You are developing a service where customers can report news events from a browser using Azure Web PubSub. The service is implemented as an Azure Function App that uses the JSON WebSocket subprotocol to receive news events. You need to implement the bindings for the Azure Function App. How should you configure the binding?</b>
+
+![question 35](images/question-35.jpg)
+![question 35 solution](images/question-35-solution.jpg)
+
+<b>36. You are building a software-as-a-service (SaaS) application that analyzes DNA data that will run on Azure virtual machines (VMs) in an availability zone. The data is stored on managed disks attached to the VM. The performance of the analysis is determined by the speed of the disk attached to the VM. You have the following requirements:
+- The application must be able to quickly revert to the previous day’s data if a systemic error is detected.
+- The application must minimize downtime in the case of an Azure datacenter outage.  
+You need to provision the managed disk for the VM to maximize performance while meeting the requirements. Which type of Azure Managed Disk should you use?</b>
+
+![question 36](images/question-36.jpg)
+![question 36 solution](images/question-36-solution.jpg)
+
+<b>37. You are developing an application that includes two Docker containers. The application must meet the following requirements:
+- The containers must not run as root.
+- The containers must be deployed to Azure Container Instances by using a YAML file.
+- The containers must share a lifecycle, resources, local network, and storage volume.
+- The storage volume must persist through container crashes.
+- The storage volume must be deployed on stop or restart of the containers.  
+You need to configure Azure Container Instances for the application. Which configuration values should you use?</b>
+
+![question 37](images/question-37.jpg)
+![question 37 solution](images/question-37-solution.jpg)
+
+<b>38. You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises
+SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service.
+- Each instance of the WebJob processes data for a single customer and must run as a singleton instance.
+- Each deployment must be tested by using deployment slots prior to serving production data.
+- Azure costs must be minimized.
+- Azure resources must be located in an isolated network.  
+You need to configure the App Service plan for the Web App. How should you configure the App Service plan? </b>
+
+![question 38](images/question-38.jpg)
+![question 38 solution](images/question-38-solution.jpg)
