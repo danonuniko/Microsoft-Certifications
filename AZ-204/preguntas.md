@@ -78,8 +78,58 @@
 - Desencadenador.
 - Valor de conexión.
   
+<br><h2 align="center"><ins>PREGUNTAS AZ-204 FREE EXAMS</ins></h2><br>
+
+<b>1. You manage an Azure App Service web app named app1. App1 is registered as an application in Azure Active Directory (Azure AD). You need to ensure that Azure AD signed-in user information can be retrieved by app1 by using Microsoft Graph. What should you configure?</b>
+- appRoles.
+- Application permissions.
+- GroupMembershipClaims.
+- Delegated permissions.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"This item test the candidate's knowlegde of accessing user data from Microsoft Graph, which is part of implementing user authentication and authorization. Delegated permissions are used by apps that have a signed-in user present. For these apps, either the user or an administrator consents to the permissions that the app requests and the app can be assigned to users, groups or service principals. Application permissions are used by apps that run without a signed-in user present. For example, apps that run as background services or daemons. An administrator can only permit application permissions. GroupMembershipClaims is an attribute in the application manifest of the registered application that configures the groups claim issued in a user or OAuth 2.0 access token that the app expects. AppRoles, application permissions and GroupMembershipClaims will not allow signed-in user information to be retrieved in the code."
+
+<b>2. You manage an Azure App Service web app named app1. App1 is registered as a multi-tenant application in an Azure Active Directory (Azure AD) tenant named tenant1. You need to grant app1 the permission to access the Microsoft Graph API in tenant1. Which service principal should you use?</b>
+- Legacy.
+- System-assigned managed identity.
+- Application.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- User-assigned managed identity.
+
+"This item test the candidate's knowlegde of accessing user data from Microsoft Graph, which is part of implementing user authentication and authorization. An Azure AD application is defined by its one and only application object, which resides in the Azure AD tenant where the application was registered (known as the application's home tenant). The application service principal is a legacy app, which is an app created before app registrations were introduced or an app created through legacy experiences. Managed identities eliminate the need to manage credentials in code. A system-assigned managed identity is restricted to one per resource and is tied to the lifecycle of the resource. Managed identities for Azure resources eliminate the need to manage credentials in code. A user-assigned managed identity can be created and assigned to one or more instances of an Azure service. The legacy, system-assigned managed identity, and user-assigned managed identity cannot be used to assign permission for app1 in tenant1 to access the Microsoft Graph API."
+
+<b>3. You develop a multitenant web application named App1. You plan to register App1 with multiple Azure Active Directory (Azure AD) tenants. You need to identify the relationship between the application objects and security principals associated with App1. Which relationship should you identify?</b>
+- App1 will have multiple application objects and multiple service principals.
+- App1 will have multiple application objects and a single service principal.
+- App1 will have a single application object and multiple service principals.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- App1 will have a single application object and a single service principal.
+
+"This item tests the candidate's knowledge of configuring authentication of multitenant applications, which is a common scenario when implementing authentication. App1 will have a single application object and multiple service principals."
+
+<b>4. You plan to generate a shared access signature (SAS) token for read access to a blob in a storage account. You need to secure the token from being compromised. What should you use?</b>
+- Primary account key.
+- Secondary account key.
+- Azure AD credentials assigned the Contributor role.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Azure AD credentials assigned the Reader role.
+
+"This item test the candidate's knowledge of Azure Storage shared access signatures (SAS). Azure AD credentials are required to generate the SAS token. The account used must have the Microsoft.Storage/storageAccounts/blobServices/generateUserDelegationKey permission, which is present in the following built-in roles: Contributor, Storage Account Contributor, Storage Blob Data Contributor, Storage Blob Data Owner, Storage Blob Data Reader and Storage Blob Delegator. The account key can be used to generate the SAS token, but it can be more easily compromised."
+
+<b>5. You have 10 applications running in Azure App Service. You need to ensure the applications have access to items stored in Azure App Configuration by using a common configuration. Passwords or keys must not be used. Which solution should you use?</b>
+- System-assigned managed identities.
+- User-assigned managed identity.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Service principal with permissions to Azure App Configuration.
+- Developer's credentials in code.
+
+"This item test the candidate's knowlegde of managed identities. User-assigned managed identities are a way to reuse the permissions across applications. User-assigned managed identities associate the managed identity to the new applications, with no keys or passwords. System-assigned managed identities use a new identity for each application, which does not meet the common configuration requirement. A service principal has keys that no need to be rotated. The developer does not run the application, so the developer's identity cannot be assumed."
+
+<b>6. You need to group keys in Azure App Configuration. What are two possible ways to achieve this goal?</b>
+- Use Azure role-based access control. Grant the Read permission to read keys that belong to the application.
+- Organize keys by using key prefixes.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Use managed identity. Grant the Read permission to read keys that belong to the application.
+- Organize keys by using labels.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"This item test the candidate's knowledge of best practices when working with keys in Azure App Configuration. Key prefixes are the beginning parts of keys. A set of keys can be grouped by using the same prefix in names. Labels are an attribute on keys. Labels are used to create variants of a key. For example, labels can be assigned to multiple versions of a key. Authorizing role-based access control to read Azure App Configuration is not a valid way to group keys. Authorizing a managed identity to read Azure App Configuration is not a valid way to group keys."
+
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
-<h3 align="center"><ins>QUESTION SET 1</h3>
+<h3 align="center"><ins>QUESTION SET 1</h3><br>
 
 <b>1. You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2. What should you do?</b>
 - From the Update management blade, click Enable.
