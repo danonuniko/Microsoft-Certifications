@@ -52,6 +52,32 @@
 - Contenido de WebJobs.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - Programadores de WebJobs.
 
+<b>9. ¿Cuál de las siguients opciones de hospedaje de Azure Functions es mejor cuando se requiere poder predecir el escalado y los costos?</b>
+- Plan Premium de Functions.
+- Plan dedicado.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Plan de consumo.
+
+"Los planes dedicados se ejecutan en App Service, que admite la configuración de reglas de escalado automático en función del uso predictivo."
+
+<b>10. Una organización quiere implementar un flujo de trabajo sin servidor para resolver un problema empresarial. Uno de los requisitos e que la solución debe usar un modelo de desarrollo orientado al diseñador (declarativo). ¿Cuál de las opciones siguientes cumple los requisitos?</b>
+- Azure Functions.
+- Azure Logic Apps.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Trabajos Web.
+
+"Azure Logic Apps permite cargas de trabajo sin servidor y usa un modelo de desarrollo orientado al diseñador (declarativo)."
+
+<b>11. ¿Cuál de las siguientes opciones es necesaria para que se ejecute una función?</b>
+- Enlace.
+- Desencadenador.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Desencadenadores y enlaces.
+
+"Un desencadenador define cómo se invoca una función y cada función debe tener exactamente un desencadenador."
+
+<b>12. ¿Cuál de las siguientes opciones admite las configuraciones de dirección in y out?</b>
+- Enlaces.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Desencadenador.
+- Valor de conexión.
+  
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
 <h3 align="center"><ins>QUESTION SET 1</h3>
 
