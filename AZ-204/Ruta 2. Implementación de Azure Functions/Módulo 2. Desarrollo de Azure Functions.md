@@ -1,5 +1,5 @@
 <h1 align="center"><ins>RUTA 2: IMPLEMENTACIÓN DE AZURE FUNCTIONS</ins></h1>
-<h2 align="center">MÓDULO 1 - DESARROLLO DE AZURE FUNCTIONS</h2>
+<h2 align="center">MÓDULO 2 - DESARROLLO DE AZURE FUNCTIONS</h2>
 
 ### Exploración del desarrollo de Azure Functions
 
