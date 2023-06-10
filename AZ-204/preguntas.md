@@ -91,6 +91,34 @@
 - FileStorage.
 
 "Este tipo admite blobs, archivos, colas y tablas. Se recomienda para la mayoría de los escenarios que usan Azure Storage."
+
+<b>15. ¿Qué nivel de acceso se considera sin conexión y no se puede leer ni modificar?</b>
+- Acceso esporádico.
+- Archivo.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Acceso frecuente.
+
+"Los blobs de nivel de archivo deben rehidratarse a los niveles esporádico o frecuente para poder leerse o modificarse."
+
+<b>16. ¿Cuál de los siguientes tipos de cuenta de almacenamiento admite directivas de ciclo de vida?</b>
+- General Purpose v1.
+- General Purpose v2.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- FileStorage.
+
+"La administración del ciclo de vida de Azure Blob Storage ofrece una directiva enriquecida basada en reglas para cuentas de almacenamiento de blobs y de uso general v2."
+
+<b>17. ¿Cuál de los siguientes encabezados HTTP estándar se admite para contenedores y blobs al establecer propiedades mediante REST?</b>
+- Last-Modified.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Content-Length.
+- Origen.
+
+"Last-Modified se admite tanto para contenedores como para blobs."
+
+<b>18. ¿Cuál de las siguientes clases de la biblioteca cliente de Azure Storage para .NET permite manipular los contenedores de Azure Storage y sus blobs?</b>
+- BlobCient.
+- BlobContainerClient.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- BlobUriBuilder.
+
+"BlobContainerClient se puede usar para manipular contenedores y blobs."
   
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 FREE EXAMS</ins></h2><br>
 
