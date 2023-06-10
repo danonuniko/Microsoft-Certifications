@@ -77,6 +77,20 @@
 - Enlaces.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 - Desencadenador.
 - Valor de conexión.
+
+<b>13. ¿Cuál de los siguientes tipos de blobs se usa para almacenar archivos de disco duro virtual?</b>
+- Blobs en bloques.
+- Blobs en anexos.
+- Blobs en páginas.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"Los blobs en páginas almacenan archivos de acceso aleatorio de hasta 8 TB de tamaño y se usan para almacenar archivos de unidad de disco duro virtual (VHD). También sirven como discos para máquinas virtuales de Azure."
+
+<b>14. ¿Cuál de los siguientes tipos de cuentas de almacenamiento se recomienda para la mayoría de los escenarios que usan Azure Storage?</b>
+- Uso general v2.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Uso general v1.
+- FileStorage.
+
+"Este tipo admite blobs, archivos, colas y tablas. Se recomienda para la mayoría de los escenarios que usan Azure Storage."
   
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 FREE EXAMS</ins></h2><br>
 
@@ -127,6 +141,59 @@
 - Organize keys by using labels.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
 
 "This item test the candidate's knowledge of best practices when working with keys in Azure App Configuration. Key prefixes are the beginning parts of keys. A set of keys can be grouped by using the same prefix in names. Labels are an attribute on keys. Labels are used to create variants of a key. For example, labels can be assigned to multiple versions of a key. Authorizing role-based access control to read Azure App Configuration is not a valid way to group keys. Authorizing a managed identity to read Azure App Configuration is not a valid way to group keys."
+
+<b>7. You plan to create a key namespace hierarchy in Azure App Configuration. You need to separate individual key names. Which character should you use?</b>
+- :  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- *
+- ,
+- \
+
+"This item tests the candidate's knowledge of configuring key namespace hierarchy of App Configuration, which is part of implementing secure cloud solutions. The colon character (:) is used to separate names of individual keys when creating a namespace hierarchy in Azure App Configuration. The asterisk character (*) is one of reserved characters in Azure App Configuration, so it cannot be used to separate names of individual keys when creating a namespace hierarchy in Azure App Configuration. The comma character (,) is one of reserved characters in Azure App Configuration, so it cannot be used to separate names of individual keys when creating a namespace hierarchy in Azure App Configuration. The backslash character (\\) is one of reserved characters in Azure App Configuration, so it cannot be used to separate names of individual keys when creating a namespace hierarchy in Azure App Configuration."
+
+<b>8. You need to generate a new version of a key stored in Azure Key Vault. Which code segment should you use?</b>
+- az keyvault key rotation-policy update -n mykey --vault-name mykeyvault --value path/to/policy.json
+- az keyvault key purge --name mykey -vault-name mykeyvault
+- az keyvault key rotate --vault-name mykeyvault --name mykey  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- az keyvault key set-attributes --vault-name mykeyvault --name mykey -policy path/to/policy.json
+
+"This item tests the candidate's knowledge of setting key rotation by using Azure CLI. The **Rotate** operation will generate a new version of the key based on the key policy. The **Rotation Policy** operation updates the rotation policy of a key vault key. The **Purge Deleted Key** operation is applicable for soft-delete enabled vaults or HSMs. The **Set Attributes** operation changes specified attributes of a stored key."
+
+<b>9. You have an Azure App Configuration instance named AppConfig1 and an Azure key vault named KeyVault1. You plan to encrypt data stored in AppConfig1 by using your own key stored in KeyVault1. You need to grant permissions in KeyVault1 to the identity assigned to AppConfig1. Which three key-specific permissions should you use?</b>
+- DECRYPT.
+- ENCRYPT.
+- GET.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- UNWRAP.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- WRAP.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"This item tests the candidate's knowledge of implementing bring your own key encryption scenarios, which is an essential part of implementing secure cloud solutions. To use the custom key stored in KeyVault1, the identity assigned to AppConfig1 needs to have GET, WRAP and UNWRAP permissions to the custom key. The DECRYPT and ENCRYPT permissions are not required to use the custom key stored in KeyVault1 in this scenario."
+
+<b>10. You have an Azure Storage account container named container1. You need to configure access to the container to meet the following requirements:
+- The shared access signature (SAS) token should be secured with Azure Active Directory (Azure AD) credentials.
+- Role-based access control (RBAC) should be used.
+- The SAS token should support granting access to containers.
+Which type of SAS should you use?</b>
+- Account.
+- User delegation.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Service.
+- Stored access policy.
+
+"This item tests the candidate's knowledge of securing an Azure Storage account, which is part of developing solutions that use blob storage. User delegation SAS fulfills all the requirements, including securing the SAS token with Azure AD credentials, RBAC support and granting access to containers. Azure Storage supports creating a new type of SAS at the level of the storage account. A service SAS delegates access to a resource in just one of the storage services (i.e. Blob Queue, Table or File). A stored access policy serves to group shared access signatures and to provide additional restrictions for signatures that are bound by the policy. The account, service and stored access policy SAS types do not fulfill the requirement of securing the SAS token with Azure AD credentials and RBAC support to manage permissions."
+
+<b>11. You are developing a solution that stores secrets in an Azure Key Vault named myvault. You need to retrieve the value for a secret named mysecret that is stored in myvault. Which CLI command should you use?</b>
+- az keyvault secret recover --name mysecret --vault-name myvault
+- az keyvault secret recover --id myvault/mysecret
+- az keyvault secret show --id myvault/mysecret
+- az keyvault secret show --name mysecret --vault-name myvault  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"This item tests the candidate's knowlegde of developing code that uses keys, secrets and certificates stored in Azure Key Vault. The CLI comand **az keyvault** offers several commands to work with secrets. The most commonly used commands are **set** for storing a secret and **show** to get the secret's value. When using these commands,either an id specifying the full secret identification (in the format **https://<keyvaultname>.vault.azure.net/secrets/<secret-name>/<secret-version>**) or the secret and the vault name must be specified."
+
+<b>12. You need to create a container in a container group and mount an Azure file share as volume. Which code segment should you use?</b>
+- az container create -g MyResourceGroup --name myapp --image myimage:latest --command-line "cat /mnt/azfile/myfile" --azure-file-volume-share-name myshare --azure file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --azure-file-volume-mount-path /mnt/azfile  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- az container create -g MyResourceGroup --name myapp --image myimage:latest --command-line "cat /mnt/azfile/myfile" --azure-file-volume-share-name myshare --azure file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --secrets-mount-path /mnt/azfile
+- az container create -g MyResourceGroup --name myapp --image myimage:latest --command-line "cat /mnt/azfile/myfile" --azure file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --azure-file-volume-mount-path /mnt/azfile
+- az container create -g MyResourceGroup --name myapp --image myimage:latest --command-line "cat /mnt/azfile/myfile" --azure file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --secrets-mount-path /mnt/azfile
+
+"This item tests the candidate's knowlegde of running containers by using Azure Container Instances. The code segment that includes the **--azure-file-volume-mont-path** parameter and the **--azure-file-volume-share-name** parameter creates a container in a conteiner group and mounts an Azure file share as volume. The code segment that include the **--secrets-mount-path** parameter will not mount an Azure file share as volume. The code segment that does not include the **--azure-file-volume-share-name** is invalid."
 
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
 <h3 align="center"><ins>QUESTION SET 1</h3><br>
