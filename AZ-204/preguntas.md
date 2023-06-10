@@ -172,7 +172,7 @@
 
 <b>7. You plan to create a key namespace hierarchy in Azure App Configuration. You need to separate individual key names. Which character should you use?</b>
 - :  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
-- *
+- \*
 - ,
 - \
 
@@ -222,6 +222,94 @@ Which type of SAS should you use?</b>
 - az container create -g MyResourceGroup --name myapp --image myimage:latest --command-line "cat /mnt/azfile/myfile" --azure file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --secrets-mount-path /mnt/azfile
 
 "This item tests the candidate's knowlegde of running containers by using Azure Container Instances. The code segment that includes the **--azure-file-volume-mont-path** parameter and the **--azure-file-volume-share-name** parameter creates a container in a conteiner group and mounts an Azure file share as volume. The code segment that include the **--secrets-mount-path** parameter will not mount an Azure file share as volume. The code segment that does not include the **--azure-file-volume-share-name** is invalid."
+
+<b>13. You manage an Azure App Service web app named app1. App1 uses a service plan based on the Basic pricing tier. You need to create a deployment slot for app1. What should you do first?</b>
+- Scale out app1.
+- Scale up app1.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Configure automated deployment of app1 with Azure DevOps.
+- Configure automated deployment of app1 with GitHub.
+
+"This item tests the candidate's knowledge of creating deployment slots, which ties directly to the pricing tier used by Azure App Service web apps. This is configured as part of the Azure Service web app creation. Deployment slots require at a minimum the Standard pricing tier, so to supply support for app1, it is necessary to scale it up. Scaling out app1 provisions more instances of app1, but it does not provide the ability to create its deployment slot. Automated deployment of app1 with Azure DevOps or GitHub is not a prerequisite of support for deployment slots, but it commonly is the reason for implementing them."
+
+<b>14. You manage the staging and production deployment slots of an Azure App Service web app named app1. You need to ensure a connection string is not swapped when swapping is performed. Which configuration should you use?</b>
+- Deployment Center.
+- Deployment slot setting.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Managed identity.
+- Scale up.
+
+"This item tests the candidate's knowledge of deploying code to Azure App Service, which is part of creating Azure App Service Web Apps. Marking a setting as a deployment slot setting keeps it sticky to that deployment slot. For example, an app setting marked as a deployment slot setting on app1 will always stick with app1 and will never move to app1/staging during a swap. The Deployment Center setting is used to configure continuous deployment and manual deployment. Managed identity provides an identity for applications to use when connecting to resources that support Azure Active Directory authentication. Scale up will ensure the web app is entitled to get CPU, memory, disk space and extra features such as dedicated virtual machines, custom domains and certificates, staging slots and autoscaling. Deployment Center, Managed Identity and Scale up cannot be used to ensure a connecting string is not swapped when swapping is performed."
+
+<b>15. You need to configure a web app to allow external requests from https://myapps.com. Which Azure CLI command should you use?</b>
+- az webapp cors add -g MyResourceGroup -n MyWebApp --allowed-origins https://myapps.com  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- az webapp identity add -g MyResourceGroup -n MyWebApp --allowed-origins https://myapps.com
+- az webapp traffic-routing set --distribution myapps=100 --name MyWebApp --resource-group MyResourceGroup
+- az webapp config access-restriction add -g MyResourceGroup -n MyWebApp --rule-name external --action Allow -ids myapps --priority 200
+
+"This item tests the candidate's knowledge of configuring web app settings. The code segment that includes the **cors add** will configure CORS to allow requests from https://myapps.com. The code segment that includes **identity** add will add a managed identity to a web app. The code segment that includes **traffic-routing-set** will configure a traffic routing to a deployment slot named myapps. The code segment that includes **access-restriction add** will add an access restriction on a web app."
+
+<b>16. You manage a multi-instance deployment of an Azure App Service web app named app1. You need to ensure a client application is routed to the same instance for the life of the session. Which platform setting should you use?</b>
+- WebSocket.
+- Always on.
+- HTTP version.
+- ARR Affinity.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"This item tests the candidate's knowledge of configuring web app settings, which is part of creating Azure App Service Web Apps. In a multi-instance deployment, the ARR Affinity setting ensures a client application is routed to the same instance for the life of the session. WebSocket is a standardized protocol that provides full-duplex communication. Always on keeps the app loaded even when there is no traffic. In HTTP/2, a persistent connection can be used to service multiple simultaneous requests. WebSocket, Always on and HTTP version are not used to ensure a client application is routed to the same instance for the life of the session."
+
+<b>17. A company plans to implement a Microsoft Defender for Cloud solution. The company has the following requirements:
+- Notifies when DNS domains are not deleted when a new function app is deleted.
+- Use native alerting.
+- Minimize costs.
+You need to select a hosting plan. Which hosting plan should you use?</b>
+- Consumption.
+- Basic.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Premium.
+- Free.
+
+"This item tests the candidate's knowlegde about securing Azure Functions. The Basic plan supports both custom domains and Microsoft Defenter for Cloud, which can automatically alert on dangling DNS domains. The Consumption plan is incorrect because it does not support Microsoft Defender for Cloud. This can automatically alert on dangling DNS domains. The Premium plan supports custom domains and Microsoft Defender for Cloud, which can automatically alert on dangling DNS domains. This, however is not the lowest cost option. The Free plan does not support custom domains, although it does support Microsfot Defender for Cloud, which can automatically alert on dangling DNS domains."
+
+<b>18. You have an Azure Key Vault named MyVault. You need to use a key vault reference to access a secret named MyConnection from MyVault. Which code segment should you use?</b>
+- @Microsoft.KeyVault(Secret=MyConnection;VaultName=MyVault)
+- @Microsoft.KeyVault(SecretName=MyConnection;VaultName=MyVault)  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- @Microsoft.KeyVault(Secret=MyConnection;Vault=MyVault)
+- @Microsoft.KeyVault(SecretName=MyConnection;Vault=MyVault)
+
+"This item tests the candidate's knowledge of retrieving secrets from Key Vault in Azure Functions. The code segment **@Microsoft.KeyVault(SecretName=MyConnection;VaultName=MyVault)** reads the secret from Key Vault. The code segment that includes **Secret** or **Vault** uses invalid parameters."
+
+<b>19. You plan to create a C# script-based Azure function app. You need to configure the trigger and bindings for the functions of the function app. What should you do?</b>
+- Create a function.json file for each function.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Create a host.json file for the function app.
+- Decorate methods of each function with C# attributes.
+- Decorate parameters of each function with C# attributes.
+
+"This item tests the candidate's knowledge of configuring triggers and bindings. When using scripting languages, such as C# script, the function.json file for each function contains its triggers and bindings, and it needs to be explicitly created. The file host.json has runtime-specific configurations, not definitions of triggers and bindings. Decorating methods and Decorating parameters are used to define triggers and bindings when using compiled languages, not scripted ones."
+
+<b>20. A container group in Azure Container Instances has multiple containers. The containers must restart when the process executed in the container group terminates due to an error. You need to define the restart policy for the container group. Which Azure CLI command should you use?</b>
+- az container restart \ --name mycontainer \ --resource-group myResourceGroup \ --no-wait
+- az container create \ --resource-group myResourceGroup \ --name mycontainer \ --image mycontainerimage \ --restart-policy Always
+- az container create \ --resource-group myResourceGroup \ --name mycontainer \ --image mycontainerimage \ --restart-policy Never
+- az conteiner create \ --resource-group myResourceGroup\ --name mycontainer \ --image mycontainerimage \ --restart-policy OnFailure  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"This item tests the candidate's knowledge of running containers by using Azure Container Instances (ACI). Configurable restart policies can be specified for a container group in ACI. A configurable restart policy allows you to specify that containers are stopped when their processes have completed. When you create a container group in ACI, you can specify one of three restart policy settings: Always, Never and OnFailure. If the --restart-policy is mentioned as OnFailure, the containers in the container group are restarted only when the process executed in the container fails (when it terminates with a nonzero exit code). If the --restart-policy is mentioned as Always, the containers in the container group are always restarted irrespective of the success or failure of process execution in a container. If the --restart-policy is mentioned as Never, the containers in the container group will only run at most once. The az container restart command is used to restart all the containers in a container group, not to define a restart policy for a container group."
+
+<b>21. You are developing a Linyx web app on Azure App Service. You need to deploy the web app to the production environment based on the following requirements:
+- App changes must be validated in an environment identical to the production environment before moving the app to the production environment.
+- Downtime must be eliminated when the app is deployed to the production environment.  
+
+What should you use?</b>
+- Deployment slots.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Auto-scaling.
+- Hybrid connection.
+- App cloning.
+
+"This item tests the candidate's knowledge of when to use deployment slots. Deployment slots are live apps with unique host names, which allow swapping configuration and content between them. Auto-scaling is a feature that allows adding more capacity to a function app hosting environment. This capacity can be added to an individual hosting environment (for example, scaling up or adding memory or CPU), or adding more hosts (scaling out). The scaling can be trigerred based on a schedule or when breaching thresholds defined for certain metrics. Hybrid connections are available for consuming on-premises apps without needing to expose them to the internet. App cloning is a process to obtain an existing app and copy it to another destination, which can be a new app or a deployment slot, for example. However, this is not supported on Linyx apps."
+
+<b>22. You develop an App Service app hosted on Windows Platform. Users report that the app is failing. You need to begin troubleshoosting the app by inspecting a copy of the page that is returned when the HTTP return code is greater than 400. Which type of log should you review?</b>
+- application.
+- web server.
+- detailed error.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- deployment.
+
+"This item tests the candidate's knowledge of using logs to troubleshoot web apps. The detailed error log contains copies of the error pages, produced in reponse to HTTP codes greater than 400, that would have been sent to clients. These pages are not sent due to security reasons. The web server log shows information about the raw HTTP requet, such as method, bytes and client user agent. The application log is application specific, logging information that your application code or components that are used by your application writes. The deployment log stores information to diagnose the reasons for a failed deployment."
 
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 EXAMTOPICS</ins></h2><br>
 <h3 align="center"><ins>QUESTION SET 1</h3><br>
