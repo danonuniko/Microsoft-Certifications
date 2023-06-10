@@ -119,7 +119,35 @@
 - BlobUriBuilder.
 
 "BlobContainerClient se puede usar para manipular contenedores y blobs."
+
+<b>19. ¿Cuál de los siguientes niveles de coherencia ofrece el mayor rendimiento?</b>
+- Alta.
+- Sesión.
+- Ocasional.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+
+"El nivel de coherencia Ocasional ofrece el mayor rendimiento a costa de una coherencia más débil."
+
+<b>20. ¿Qué son las unidades de solicitud (RU) en Azure Cosmos DB?</b>
+- Una unidad de medida que se usa para expresar el costo de todas las operaciones de base de datos en Azure Cosmos DB.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Unidad de tiempo utilizada para medir la duración de las operaciones de base de datos.
+- Unidad de almacenamiento que se usa para medir la cantidad de datos almacenados en Azure Cosmos DB.
+
+"Las RU representan el costo normalizado de todas las operaciones de base de datos en Azure Cosmos DB, incluidas las escrituras, las lecturas puntuales y las consultas."
+
+<b>21. Al definir un procedimiento almacenado en Azure Portal, ¿los parámetros de entrada siempre se envían como tipo al procedimiento almacenado?</b>
+- String.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Entero.
+- Boolean.
+
+"Al definir un procedimiento almacenado mediante Azure Portal, los parámetros de entrada siempre se envían como una cadena para el procedimiento almacenado."
   
+<b>22. ¿Cuál de las siguientes opciones usaría para validar las propiedades de un elemento que se está creando?</b>
+- Desencadenador previo.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
+- Desencadenador posterior.
+- Función definida por el usuario.
+
+"Los desencadenadores previos se pueden usar para ajustar los datos antes de agregarlos al contenedor."
+
 <br><h2 align="center"><ins>PREGUNTAS AZ-204 FREE EXAMS</ins></h2><br>
 
 <b>1. You manage an Azure App Service web app named app1. App1 is registered as an application in Azure Active Directory (Azure AD). You need to ensure that Azure AD signed-in user information can be retrieved by app1 by using Microsoft Graph. What should you configure?</b>
@@ -259,6 +287,7 @@ Which type of SAS should you use?</b>
 - Notifies when DNS domains are not deleted when a new function app is deleted.
 - Use native alerting.
 - Minimize costs.
+
 You need to select a hosting plan. Which hosting plan should you use?</b>
 - Consumption.
 - Basic.  &emsp; &emsp; &emsp; &emsp; <b>CORRECTO</b>
